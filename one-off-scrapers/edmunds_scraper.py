@@ -41,7 +41,7 @@ def cleanOffer(offerTag):
     val = offerTag["aria-label"].split(" ")[0]
     return (int(re.sub(r"([$,])", "", val)), True)
 
-config = {"make": "toyota", "model": "corolla"}
+config = {"make": "toyota", "model": "highlander"}
 
 url = "https://www.edmunds.com/inventory/srp.html?inventorytype=used%2Ccpo&make={0}&model={0}%7C{1}".format(
     config["make"], config["model"]
