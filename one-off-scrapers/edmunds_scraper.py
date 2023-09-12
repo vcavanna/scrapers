@@ -1,9 +1,10 @@
 """Scrapes the edmunds used car sales for specific models."""
 
-import requests
-import bs4
 import functools
 import re
+import requests
+import bs4
+import csv
 
 
 def extractYearMakeModelTrimTuple(src):
@@ -39,7 +40,7 @@ def cleanOffer(offerTag):
     assert (offer_text[0] == "$"), "var 'offer_text' must start with dollar sign. offer_text = {}".format(offer_text)
     # There is an offer visible
     val = offerTag["aria-label"].split(" ")[0]
-    return (int(re.sub(r"([$,])", "", val)), True)
+    return int(re.sub(r"([$,])", "", val))
 
 config = {"make": "toyota", "model": "corolla"}
 
@@ -63,6 +64,11 @@ results = soup.find_all(class_="d-flex mb-0_75 mb-md-1_5 col-12 col-md-6")
 
 car_data = dict()
 
+csv_file = open('car_entries.csv', mode="w")
+fieldnames = ["car_entry_id","year","make","model","trim","miles","offer"]
+writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+writer.writeheader()
+
 for idx, car_result in enumerate(results):
     # get Year, Make, Model and Trim
     yearMakeModelAndTrim = car_result.find("a", class_="usurp-inventory-card-vdp-link")[
@@ -72,7 +78,7 @@ for idx, car_result in enumerate(results):
     year, make, model, trim = extractYearMakeModelTrimTuple(yearMakeModelAndTrim)
     car_data.update({car_id_key: dict()})
     car_data[car_id_key].update(
-        {"year": year, "make": make, "model": model, "trim": trim}
+        {"year": year, "make": make, "model": model, "trim": trim, "car_entry_id": idx}
     )
 
     # get Miles traveled
@@ -98,6 +104,11 @@ for idx, car_result in enumerate(results):
     # TODO: Get Location (city)
 
     # TODO: Get Location (state)
+
+    # TODO: Write row to CSV file
+    writer.writerow(car_data[car_id_key])
+
+# TODO: Copy to S3
 
 
 # print(car_data)

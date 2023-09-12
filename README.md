@@ -37,5 +37,7 @@ For scraping additional info (most/all of the project todos are scraping more in
 5. After solving (check with print statements) use an "assert" statement to protect against changes in the Edmunds websites.
 6. Commit and push to your own forked repo, then enter a pull request. This can be a little touch and go, so contact me if you run into issues.
 
-<h2>Credits</h2>
+<h2>Tutorials and Guides</h2>
 Credit to realpython.com's tutorial <a href="https://realpython.com/beautiful-soup-web-scraper-python/">Beautiful Soup: Build a Web Scraper With Python</a> for the introduction to webscraping.
+Credit to the AWS tutorial <a href="https://docs.aws.amazon.com/redshift/latest/dg/tutorial-loading-data.html">Loading Data from Amazon S3</a> for the introduction to using the redshift database.
+Credit to the AWS tutorial <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/python-connect-examples.html">
