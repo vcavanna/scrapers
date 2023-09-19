@@ -1,22 +1,2175 @@
 car_entry_id,year,make,model,trim,miles,offer
-0,2021,Toyota,Corolla,LE,44925,18995
-1,2021,Toyota,Corolla,LE,38436,19789
-2,2021,Toyota,Corolla,LE,49968,18410
-3,2017,Toyota,Corolla,SE,144663,11906
-4,2017,Toyota,Corolla,L,67269,14999
-5,2020,Toyota,Corolla,LE,24215,21990
-6,2013,Toyota,Corolla,LE,160005,8988
-7,2019,Toyota,Corolla,LE,23149,21590
-8,2022,Toyota,Corolla,LE,16589,22989
-9,2020,Toyota,Corolla,SE,49825,20500
-10,2021,Toyota,Corolla,LE,26173,19985
-11,2019,Toyota,Corolla,LE,29486,16498
-12,2022,Toyota,Corolla,LE,30409,20633
-13,2020,Toyota,Corolla,LE,42971,20189
-14,2021,Toyota,Corolla,LE,78848,18139
-15,2017,Toyota,Corolla,LE,25863,20990
-16,2020,Toyota,Corolla,LE,41612,20998
-17,2022,Toyota,Corolla,LE,33171,20891
-18,2021,Toyota,Corolla,LE,34420,21562
-19,2022,Toyota,Corolla,LE,30438,21285
-20,2017,Toyota,Corolla,SE,87272,16888
+0,2017,Honda,Civic,EX Hatchback,34412,17998
+1,2019,Honda,Civic,LX,63800,17989
+2,2019,Honda,Civic,Sport Hatchback,12890,20998
+3,2019,Honda,Civic,LX,61813,18984
+4,2022,Honda,Civic,Sport,18145,25597
+5,2022,Honda,Civic,LX,36726,23964
+6,2019,Honda,Civic,LX,58512,18983
+7,2019,Honda,Civic,Type R Hatchback,14329,41968
+8,2020,Honda,Civic,LX,17563,23492
+9,2020,Honda,Civic,LX,15576,23496
+10,2020,Honda,Civic,Sport,34208,23389
+11,2020,Honda,Civic,LX,62005,20183
+12,2018,Honda,Civic,EX-T,47458,19490
+13,2023,Honda,Civic,Touring,3122,31065
+14,2023,Honda,Civic,Type R Hatchback,2045,54000
+15,2020,Honda,Civic,Si,7569,28479
+16,2015,Honda,Civic,LX,77955,14991
+17,2022,Honda,Civic,LX,35811,24989
+18,2022,Honda,Civic,Sport,12884,26887
+19,2021,Honda,Civic,LX,35300,22991
+20,2022,Honda,Civic,EX,24062,27491
+21,2014,Honda,Civic,EX,60756,16880
+22,2017,Honda,Civic,LX,71151,19998
+23,2022,Honda,Civic,Sport Hatchback,29839,26988
+24,2020,Honda,Civic,EX,11681,25991
+25,2022,Honda,Civic,Si,4301,32589
+26,2020,Honda,Civic,Sport,45326,23992
+27,2022,Honda,Civic,EX,24689,27235
+28,2022,Honda,Civic,Si,11121,31999
+29,2022,Honda,Civic,Si,18092,31629
+30,2020,Honda,Civic,Sport,49117,23988
+31,2019,Honda,Civic,Sport,30309,21949
+32,2021,Honda,Civic,LX,69135,19988
+33,2020,Honda,Civic,EX,34941,24464
+34,2021,Honda,Civic,Type R Hatchback,41807,40988
+35,2017,Honda,Civic,EX,42772,20899
+36,2022,Honda,Civic,Sport Touring Hatchback,17375,29406
+37,2022,Honda,Civic,Sport Touring Hatchback,34927,29289
+38,2022,Honda,Civic,Touring,30586,27961
+39,2017,Honda,Civic,LX-P Coupe,88734,16594
+40,2022,Honda,Civic,Sport,17426,27452
+41,2022,Honda,Civic,LX,38916,25590
+42,2016,Honda,Civic,EX-L,107999,15777
+43,2022,Honda,Civic,Sport,25218,27000
+44,2016,Honda,Civic,LX,62624,17795
+45,2023,Honda,Civic,Sport Hatchback,4253,29808
+46,2022,Honda,Civic,Sport,37322,26499
+47,2021,Honda,Civic,Sport,29099,23659
+48,2016,Honda,Civic,EX-T,105257,16886
+49,2015,Honda,Civic,EX,109905,13998
+50,2014,Honda,Civic,LX,47377,16998
+51,2020,Honda,Civic,Sport,35016,25371
+52,2015,Honda,Civic,EX,93800,16990
+53,2022,Honda,Civic,EX-L Hatchback,23657,28989
+54,2021,Honda,Civic,Sport Hatchback,30785,26995
+55,2018,Honda,Civic,Sport Touring Hatchback,27059,25998
+56,2015,Honda,Civic,Si,82495,19247
+57,2017,Honda,Civic,EX,82532,19589
+58,2017,Honda,Civic,Touring,67958,19470
+59,2023,Honda,Civic,EX-L Hatchback,3207,30587
+60,2022,Honda,Civic,Si,6212,32588
+61,2021,Honda,Civic,EX-L,33042,25999
+62,2019,Honda,Civic,Sport,85017,21589
+63,2020,Honda,Civic,LX,29086,23991
+64,2012,Honda,Civic,EX,130757,11491
+65,2022,Honda,Civic,Si,2733,33990
+66,2014,Honda,Civic,EX,66566,16998
+67,2020,Honda,Civic,EX,26901,25906
+68,2021,Honda,Civic,Sport,42070,23906
+69,2016,Honda,Civic,EX,67989,16450
+70,2022,Honda,Civic,Sport Touring Hatchback,6683,35630
+71,2015,Honda,Civic,EX-L,132400,15998
+72,2015,Honda,Civic,EX,78094,17990
+73,2019,Honda,Civic,Si,81916,22999
+74,2016,Honda,Civic,EX,166620,12995
+75,2020,Honda,Civic,LX,61634,22590
+76,2022,Honda,Civic,Sport Touring Hatchback,6340,32998
+77,2019,Honda,Civic,EX Hatchback,60388,22988
+78,2018,Honda,Civic,Si Coupe,17203,27990
+79,2017,Honda,Civic,EX-T,119336,18998
+80,2021,Honda,Civic,Touring,22000,28990
+81,2020,Honda,Civic,LX,53369,22995
+82,2015,Honda,Civic,EX-L,98207,16590
+83,2020,Honda,Civic,LX,53369,22995
+84,2015,Honda,Civic,EX-L,98207,16590
+85,2011,Honda,Civic,Si,157015,9888
+86,2015,Honda,Civic,LX,115793,15998
+87,2022,Honda,Civic,Touring,20419,30000
+88,2016,Honda,Civic,LX,84856,18998
+89,2016,Honda,Civic,EX,66530,19990
+90,2019,Honda,Civic,LX,37818,22998
+91,2021,Honda,Civic,Sport Hatchback,6052,27998
+92,2017,Honda,Civic,Touring,66310,22590
+93,2019,Honda,Civic,Sport Hatchback,40838,24998
+94,2019,Honda,Civic,EX-L,39505,24998
+95,2021,Honda,Civic,Type R Hatchback,31357,43475
+96,2019,Honda,Civic,Sport,48396,23998
+97,2019,Honda,Civic,EX-L,44344,24998
+98,2017,Honda,Civic,EX-L,99229,20999
+99,2020,Honda,Civic,Touring Coupe,44903,25387
+100,2018,Honda,Civic,EX-T,33010,17998
+101,2013,Honda,Civic,EX-L,61199,16791
+102,2022,Honda,Civic,Sport,34516,27495
+103,2022,Honda,Civic,Sport Touring Hatchback,14304,29997
+104,2020,Honda,Civic,Sport Hatchback,33040,28000
+105,2012,Honda,Civic,LX,150799,9999
+106,2015,Honda,Civic,Hybrid,108501,16998
+107,2012,Honda,Civic,LX,70572,14995
+108,2018,Honda,Civic,LX,70484,20998
+109,2017,Honda,Civic,EX-L Coupe,43211,23998
+110,2017,Honda,Civic,EX,50758,22998
+111,2018,Honda,Civic,Sport Touring Hatchback,98345,22998
+112,2020,Honda,Civic,EX-L,69984,23956
+113,2021,Honda,Civic,Sport Hatchback,37808,27595
+114,2018,Honda,Civic,EX-L,24816,25995
+115,2018,Honda,Civic,EX Hatchback,54334,22584
+116,2017,Honda,Civic,EX,66866,14999
+117,2015,Honda,Civic,EX-L,34375,13950
+118,2019,Honda,Civic,LX,26242,18999
+119,2023,Honda,Civic,Sport,10733,25987
+120,2017,Honda,Civic,LX,63985,16795
+121,2016,Honda,Civic,LX,48628,13999
+122,2019,Honda,Civic,Sport,67632,16999
+123,2018,Honda,Civic,LX,47063,14995
+124,2016,Honda,Civic,LX,99000,12999
+125,2020,Honda,Civic,Sport,97360,17990
+126,2017,Honda,Civic,LX,106480,14900
+127,2020,Honda,Civic,EX,22116,20998
+128,2017,Honda,Civic,LX,151778,13999
+129,2013,Honda,Civic,LX,94451,10998
+130,2022,Honda,Civic,Sport,22118,23888
+131,2012,Honda,Civic,HF,140000,7500
+132,2014,Honda,Civic,EX,76535,14950
+133,2008,Honda,Civic,LX,180042,3995
+134,2019,Honda,Civic,LX,146698,13695
+135,2019,Honda,Civic,Sport,77629,17060
+136,2015,Honda,Civic,EX Coupe,113161,10995
+137,2008,Honda,Civic,LX,249278,4250
+138,2015,Honda,Civic,SE,141835,10900
+139,2022,Honda,Civic,Sport,14980,24990
+140,2020,Honda,Civic,LX,13057,21743
+141,2020,Honda,Civic,Sport Touring Hatchback,68756,23999
+142,2020,Honda,Civic,Sport,34847,22901
+143,2022,Honda,Civic,EX-L Hatchback,11785,26998
+144,2020,Honda,Civic,Sport,34847,22901
+145,2018,Honda,Civic,EX-L,106176,16910
+146,2019,Honda,Civic,LX,77222,17995
+147,2018,Honda,Civic,EX-T,45586,19699
+148,2020,Honda,Civic,EX,49770,21992
+149,2021,Honda,Civic,EX Hatchback,32110,24476
+150,2019,Honda,Civic,Sport,89335,17991
+151,2019,Honda,Civic,EX Hatchback,70854,20450
+152,2020,Honda,Civic,Sport,55713,21990
+153,2020,Honda,Civic,LX,33415,20400
+154,2017,Honda,Civic,Si,74314,20950
+155,2015,Honda,Civic,EX-L,135136,12995
+156,2021,Honda,Civic,LX,45695,20500
+157,2022,Honda,Civic,LX,35328,22495
+158,2020,Honda,Civic,Sport Hatchback,28168,23999
+159,2012,Honda,Civic,LX,120503,9488
+160,2016,Honda,Civic,EX,57401,15995
+161,2021,Honda,Civic,EX-L,40470,23550
+162,2020,Honda,Civic,Sport Hatchback,47063,22950
+163,2012,Honda,Civic,LX,99666,10000
+164,2012,Honda,Civic,LX,99666,10000
+165,2020,Honda,Civic,EX-L,21734,21994
+166,2019,Honda,Civic,EX,38450,14900
+167,2019,Honda,Civic,Sport Hatchback,43392,15999
+168,2022,Honda,Civic,Si,9092,32590
+169,2021,Honda,Civic,Sport Hatchback,22106,25000
+170,2018,Honda,Civic,LX,49322,12900
+171,2016,Honda,Civic,Touring,47344,15499
+172,2020,Honda,Civic,Sport Hatchback,42400,17500
+173,2018,Honda,Civic,EX,39606,15499
+174,2017,Honda,Civic,Touring,69072,18888
+175,2014,Honda,Civic,EX Coupe,70481,10999
+176,2016,Honda,Civic,LX,24764,18750
+177,2020,Honda,Civic,Sport,72192,21225
+178,2012,Honda,Civic,LX Coupe,101608,9990
+179,2017,Honda,Civic,LX,67208,13749
+180,2023,Honda,Civic,Sport Hatchback,4147,26998
+181,2022,Honda,Civic,Touring,29133,17000
+182,2021,Honda,Civic,Sport,42517,21998
+183,2018,Honda,Civic,EX,48252,18500
+184,2016,Honda,Civic,LX,10719,21590
+185,2002,Honda,Civic,LX,131870,4495
+186,2016,Honda,Civic,LX,32337,14998
+187,2020,Honda,Civic,LX,38358,20521
+188,2019,Honda,Civic,LX,12306,22990
+189,2015,Honda,Civic,LX,22231,18990
+190,2016,Honda,Civic,Touring,57900,20990
+191,2018,Honda,Civic,EX-T,46417,18999
+192,2016,Honda,Civic,LX,74177,15488
+193,2020,Honda,Civic,Sport Coupe,15839,22714
+194,2014,Honda,Civic,LX,62047,14169
+195,2017,Honda,Civic,LX,44940,17990
+196,2022,Honda,Civic,Si,10939,32590
+197,2020,Honda,Civic,LX,13021,22645
+198,2013,Honda,Civic,Si,101560,15250
+199,2020,Honda,Civic,LX,17995,21800
+200,2022,Honda,Civic,EX,8810,28590
+201,2021,Honda,Civic,EX Hatchback,23872,24901
+202,2020,Honda,Civic,LX,17764,23484
+203,2021,Honda,Civic,LX,24365,19944
+204,2008,Honda,Civic,LX,120198,6750
+205,2021,Honda,Civic,EX,7803,24978
+206,2022,Honda,Civic,EX,36628,24901
+207,2020,Honda,Civic,LX,31360,18879
+208,2010,Honda,Civic,LX,139998,7299
+209,2021,Honda,Civic,EX-L,8119,25400
+210,2020,Honda,Civic,EX-L,27089,24562
+211,2018,Honda,Civic,EX-L,23697,24590
+212,2016,Honda,Civic,EX-T,43269,17607
+213,2022,Honda,Civic,Si,18035,31990
+214,2022,Honda,Civic,EX-L Hatchback,7174,27998
+215,2020,Honda,Civic,Sport Coupe,66636,19901
+216,2021,Honda,Civic,Sport Hatchback,11712,26888
+217,2020,Honda,Civic,Sport,11172,23098
+218,2016,Honda,Civic,LX,55622,13999
+219,2022,Honda,Civic,EX,28817,25901
+220,2015,Honda,Civic,LX,95300,13950
+221,2022,Honda,Civic,Sport,6112,26998
+222,2018,Honda,Civic,LX,102166,14998
+223,2022,Honda,Civic,Sport,13193,26998
+224,2022,Honda,Civic,Sport,29056,24990
+225,2012,Honda,Civic,EX Coupe,93805,9999
+226,2021,Honda,Civic,Sport,21217,23288
+227,2023,Honda,Civic,Sport,5506,27998
+228,2022,Honda,Civic,EX,29100,25901
+229,2017,Honda,Civic,EX-L Coupe,22372,22990
+230,2020,Honda,Civic,EX Hatchback,12136,24793
+231,2022,Honda,Civic,EX,23505,22000
+232,2019,Honda,Civic,Sport Hatchback,73851,20762
+233,2022,Honda,Civic,Si,2332,32998
+234,2013,Honda,Civic,LX,79093,15590
+235,2021,Honda,Civic,Type R Hatchback,6530,46998
+236,2022,Honda,Civic,Sport Hatchback,4636,27998
+237,2012,Honda,Civic,EX-L,81857,12950
+238,2023,Honda,Civic,Sport,7257,27998
+239,2022,Honda,Civic,Si,12665,30985
+240,2022,Honda,Civic,Si,6670,31582
+241,2020,Honda,Civic,EX Hatchback,10331,25959
+242,2002,Honda,Civic,EX,99129,5999
+243,2023,Honda,Civic,Sport,4462,27998
+244,2021,Honda,Civic,EX,18265,26024
+245,2021,Honda,Civic,EX,10686,26398
+246,2012,Honda,Civic,LX,120893,6950
+247,2020,Honda,Civic,LX,4351,22999
+248,2019,Honda,Civic,LX,14250,18995
+249,2023,Honda,Civic,LX,5556,26998
+250,2022,Honda,Civic,Sport,14537,26998
+251,2014,Honda,Civic,LX,153566,9995
+252,2021,Honda,Civic,Type R Hatchback,14965,43990
+253,2021,Honda,Civic,LX,23385,22998
+254,2022,Honda,Civic,Si,4683,32998
+255,2021,Honda,Civic,Type R Hatchback,12577,44999
+256,2020,Honda,Civic,LX Coupe,28797,19900
+257,2021,Honda,Civic,Touring,15871,26998
+258,2018,Honda,Civic,LX Coupe,55259,19990
+259,2022,Honda,Civic,LX,19544,26382
+260,2017,Honda,Civic,LX,42041,19890
+261,2023,Honda,Civic,Touring,6397,30500
+262,2015,Honda,Civic,LX,31459,17015
+263,2022,Honda,Civic,Sport,7002,27998
+264,2023,Honda,Civic,Si,3021,32999
+265,2022,Honda,Civic,Sport,12470,27624
+266,2023,Honda,Civic,Si,1316,33589
+267,2020,Honda,Civic,LX,93576,18998
+268,2023,Honda,Civic,EX-L Hatchback,7405,29998
+269,2023,Honda,Civic,EX-L Hatchback,7405,29998
+270,2022,Honda,Civic,Sport Touring Hatchback,17559,29999
+271,2020,Honda,Civic,LX,30624,20417
+272,2014,Honda,Civic,LX,195103,7995
+273,2020,Honda,Civic,Sport,41014,23990
+274,2020,Honda,Civic,Sport Coupe,38086,22219
+275,2017,Honda,Civic,LX Coupe,35947,18678
+276,2017,Honda,Civic,LX,47735,19421
+277,2014,Honda,Civic,LX,116283,12241
+278,2019,Honda,Civic,LX,38284,21333
+279,2022,Honda,Civic,LX,10743,25589
+280,2023,Honda,Civic,Sport,20696,27991
+281,2022,Honda,Civic,Sport,20010,26500
+282,2021,Honda,Civic,Type R Hatchback,21831,43998
+283,2015,Honda,Civic,LX,170674,9935
+284,2020,Honda,Civic,EX Hatchback,22489,24998
+285,2019,Honda,Civic,Si Coupe,90430,20498
+286,2023,Honda,Civic,Si,2279,34590
+287,2023,Honda,Civic,Si,5729,32999
+288,2020,Honda,Civic,Sport,35014,22986
+289,2020,Honda,Civic,LX,30634,21995
+290,2020,Honda,Civic,Sport,44104,24176
+291,2020,Honda,Civic,LX,25966,22888
+292,2020,Honda,Civic,EX,30010,24400
+293,2023,Honda,Civic,Si,7636,32999
+294,2023,Honda,Civic,Touring,2988,30998
+295,2022,Honda,Civic,Touring,12353,29998
+296,2020,Honda,Civic,EX,13614,23769
+297,2022,Honda,Civic,Sport Touring Hatchback,9509,29983
+298,2023,Honda,Civic,Sport,5121,28589
+299,2017,Honda,Civic,EX-T Coupe,68339,17981
+300,2014,Honda,Civic,LX Coupe,126280,11500
+301,2022,Honda,Civic,LX,28728,23403
+302,2022,Honda,Civic,EX-L Hatchback,18765,27998
+303,2019,Honda,Civic,LX,56631,19608
+304,2022,Honda,Civic,Sport Touring Hatchback,13933,29998
+305,2020,Honda,Civic,LX,71735,19932
+306,2020,Honda,Civic,LX,36510,20051
+307,2017,Honda,Civic,LX Coupe,33703,19998
+308,2017,Honda,Civic,LX-P Coupe,75306,17858
+309,2022,Honda,Civic,Sport,25291,25100
+310,2018,Honda,Civic,Sport Hatchback,77908,20395
+311,2022,Honda,Civic,Sport,22042,25998
+312,2018,Honda,Civic,EX Hatchback,22159,24998
+313,2019,Honda,Civic,EX,28060,23590
+314,2022,Honda,Civic,EX-L Hatchback,9105,28999
+315,2022,Honda,Civic,Sport,16577,26998
+316,2021,Honda,Civic,Sport Hatchback,26546,23995
+317,2019,Honda,Civic,Si,48086,24000
+318,2017,Honda,Civic,EX-L,14195,23990
+319,2020,Honda,Civic,Sport Coupe,72896,20426
+320,2019,Honda,Civic,Si,109928,20763
+321,2016,Honda,Civic,LX Coupe,52365,16947
+322,2022,Honda,Civic,EX,23566,26990
+323,2019,Honda,Civic,LX,49004,20500
+324,2021,Honda,Civic,Sport Hatchback,19927,26949
+325,2020,Honda,Civic,EX,25603,22495
+326,2019,Honda,Civic,LX,42838,19999
+327,2015,Honda,Civic,EX-L,98626,16995
+328,2021,Honda,Civic,EX,35605,23270
+329,2019,Honda,Civic,Sport,93366,19955
+330,2020,Honda,Civic,Sport,21244,25269
+331,2023,Honda,Civic,Sport,2273,29589
+332,2017,Honda,Civic,EX,35085,20000
+333,2022,Honda,Civic,Sport,19830,26575
+334,2013,Honda,Civic,LX,21812,18590
+335,2019,Honda,Civic,LX,53095,19484
+336,2016,Honda,Civic,EX,90034,17000
+337,2019,Honda,Civic,Si,16885,27990
+338,2018,Honda,Civic,LX,94800,15800
+339,2023,Honda,Civic,Sport,2273,29589
+340,2020,Honda,Civic,EX,29736,23600
+341,2020,Honda,Civic,EX,25465,23632
+342,2022,Honda,Civic,Touring,19233,28982
+343,2021,Honda,Civic,Sport,52313,22842
+344,2020,Honda,Civic,EX,28235,25411
+345,2019,Honda,Civic,EX-L,68044,21999
+346,2019,Honda,Civic,EX,95278,18999
+347,2012,Honda,Civic,LX,115919,10950
+348,2022,Honda,Civic,Sport Touring Hatchback,9834,30589
+349,2020,Honda,Civic,LX,25976,21000
+350,2021,Honda,Civic,EX,21545,25990
+351,2022,Honda,Civic,LX,23845,26677
+352,2022,Honda,Civic,Sport,19344,27998
+353,2022,Honda,Civic,EX-L Hatchback,12580,28999
+354,2021,Honda,Civic,Type R Hatchback,18886,42999
+355,2010,Honda,Civic,LX,96352,10250
+356,2021,Honda,Civic,LX,48638,22135
+357,2020,Honda,Civic,EX,89328,19688
+358,2021,Honda,Civic,Sport Hatchback,32957,26572
+359,2020,Honda,Civic,EX-L,34388,23850
+360,2019,Honda,Civic,Sport,77769,20195
+361,2020,Honda,Civic,LX,55482,17999
+362,2021,Honda,Civic,Sport,33840,24589
+363,2017,Honda,Civic,EX-L,74495,18708
+364,2019,Honda,Civic,EX,88144,18600
+365,2017,Honda,Civic,EX-L,32177,22998
+366,2014,Honda,Civic,EX Coupe,151976,11872
+367,2018,Honda,Civic,Type R Touring Hatchback,11219,41999
+368,2022,Honda,Civic,EX-L Hatchback,14238,28999
+369,2015,Honda,Civic,LX,96940,13981
+370,2019,Honda,Civic,EX,30850,22882
+371,2022,Honda,Civic,Touring,26578,26996
+372,2020,Honda,Civic,Sport,43937,23590
+373,2022,Honda,Civic,Sport,27400,25400
+374,2019,Honda,Civic,Touring,100798,19589
+375,2018,Honda,Civic,LX,53303,18950
+376,2020,Honda,Civic,LX,12212,21534
+377,2012,Honda,Civic,LX,104492,13998
+378,2019,Honda,Civic,LX,24658,21999
+379,2016,Honda,Civic,EX-T Coupe,93689,17000
+380,2020,Honda,Civic,Sport,42240,22998
+381,2020,Honda,Civic,Sport,79825,20998
+382,2020,Honda,Civic,Sport,33338,21904
+383,2022,Honda,Civic,EX,24048,26998
+384,2020,Honda,Civic,LX,78042,19990
+385,2019,Honda,Civic,EX Hatchback,34801,23589
+386,2019,Honda,Civic,LX,11181,22998
+387,2022,Honda,Civic,Touring,29107,28466
+388,2013,Honda,Civic,LX,144810,9590
+389,2017,Honda,Civic,LX Coupe,8856,22590
+390,2014,Honda,Civic,EX Coupe,104798,12965
+391,2019,Honda,Civic,Type R Hatchback,23465,39998
+392,2022,Honda,Civic,Sport Touring Hatchback,11174,25888
+393,2019,Honda,Civic,Si,57067,23998
+394,2019,Honda,Civic,LX,46070,20786
+395,2016,Honda,Civic,EX-T Coupe,93689,17000
+396,2015,Honda,Civic,EX,60867,14995
+397,2020,Honda,Civic,Sport,55933,22998
+398,2020,Honda,Civic,Sport,37727,21507
+399,2021,Honda,Civic,Sport Hatchback,21546,25999
+400,2019,Honda,Civic,LX,28303,21999
+401,2017,Honda,Civic,LX,56186,19365
+402,2012,Honda,Civic,LX,77899,14990
+403,2021,Honda,Civic,EX,38876,23999
+404,2015,Honda,Civic,EX-L,5557,22590
+405,2019,Honda,Civic,Sport,35181,22990
+406,2021,Honda,Civic,LX,48638,22135
+407,2020,Honda,Civic,Sport,42641,22500
+408,2019,Honda,Civic,LX,14294,22990
+409,2015,Honda,Civic,EX,119767,13491
+410,2020,Honda,Civic,Sport,11267,27249
+411,2013,Honda,Civic,LX,98611,12000
+412,2018,Honda,Civic,LX,19763,19444
+413,2019,Honda,Civic,LX Coupe,40401,17900
+414,2017,Honda,Civic,EX,49355,21282
+415,2020,Honda,Civic,EX,39869,21995
+416,2018,Honda,Civic,EX,100268,18998
+417,2018,Honda,Civic,LX,19763,19444
+418,2017,Honda,Civic,EX,49355,21282
+419,2020,Honda,Civic,EX,39869,21995
+420,2018,Honda,Civic,Sport Hatchback,53669,21998
+421,2020,Honda,Civic,LX,8040,23998
+422,2022,Honda,Civic,EX-L Hatchback,33123,26942
+423,2021,Honda,Civic,Sport Touring Hatchback,73096,25590
+424,2021,Honda,Civic,Sport Hatchback,8110,29764
+425,2022,Honda,Civic,EX-L Hatchback,20099,28589
+426,2013,Honda,Civic,LX Coupe,34106,16990
+427,2020,Honda,Civic,Sport Hatchback,29953,24999
+428,2018,Honda,Civic,EX Hatchback,8567,25990
+429,2019,Honda,Civic,LX,48158,20990
+430,2020,Honda,Civic,EX-L,61255,22898
+431,2019,Honda,Civic,LX,10634,23998
+432,2017,Honda,Civic,EX-T,54353,19995
+433,2016,Honda,Civic,EX-L,72841,19590
+434,2019,Honda,Civic,LX,40220,21998
+435,2019,Honda,Civic,LX,10635,23998
+436,2019,Honda,Civic,Touring,75801,21757
+437,2018,Honda,Civic,EX Hatchback,99580,19998
+438,2019,Honda,Civic,LX,40220,21998
+439,2018,Honda,Civic,EX,12328,23998
+440,2017,Honda,Civic,LX Hatchback,13217,22998
+441,2020,Honda,Civic,Sport,52050,23674
+442,2020,Honda,Civic,EX-L Hatchback,45637,24731
+443,2017,Honda,Civic,LX Coupe,14741,22990
+444,2018,Honda,Civic,EX-L Coupe,46372,21998
+445,2020,Honda,Civic,LX,50055,20990
+446,2019,Honda,Civic,LX,15194,22990
+447,2019,Honda,Civic,EX Hatchback,60357,22000
+448,2019,Honda,Civic,EX,49139,22590
+449,2020,Honda,Civic,LX,98455,19998
+450,2019,Honda,Civic,Sport,7170,25998
+451,2021,Honda,Civic,Sport Hatchback,68935,24997
+452,2022,Honda,Civic,Sport,31245,26296
+453,2021,Honda,Civic,EX,40700,24998
+454,2017,Honda,Civic,Si,80358,20990
+455,2022,Honda,Civic,EX,22890,26955
+456,2019,Honda,Civic,EX-L,8132,25998
+457,2021,Honda,Civic,LX,43887,22998
+458,2019,Honda,Civic,Type R Hatchback,19551,40999
+459,2014,Honda,Civic,LX,45692,17590
+460,2020,Honda,Civic,Sport Hatchback,51579,23998
+461,2022,Honda,Civic,Sport Touring Hatchback,11174,25888
+462,2019,Honda,Civic,LX,14113,23998
+463,2022,Honda,Civic,Sport,30675,26272
+464,2021,Honda,Civic,Sport,46655,23998
+465,2005,Honda,Civic,Hybrid,76920,8995
+466,2019,Honda,Civic,Type R Hatchback,18276,41589
+467,2018,Honda,Civic,EX-L,74078,20998
+468,2021,Honda,Civic,Sport,46450,23499
+469,2020,Honda,Civic,LX,9801,23589
+470,2013,Honda,Civic,EX,143651,9895
+471,2016,Honda,Civic,EX,45420,19491
+472,2019,Honda,Civic,LX Hatchback,142000,15500
+473,2022,Honda,Civic,EX,39417,26097
+474,2020,Honda,Civic,EX-L,22906,23400
+475,2021,Honda,Civic,LX,15383,23998
+476,2022,Honda,Civic,EX,5324,27998
+477,2022,Honda,Civic,Sport,43219,24194
+478,2021,Honda,Civic,Sport Touring Hatchback,72495,26590
+479,2020,Honda,Civic,LX,54154,21998
+480,2015,Honda,Civic,SE,17982,19998
+481,2022,Honda,Civic,Sport,7002,27998
+482,2019,Honda,Civic,Si,30816,26589
+483,2015,Honda,Civic,LX,24688,18590
+484,2019,Honda,Civic,Sport,52988,22590
+485,2017,Honda,Civic,Type R Hatchback,34794,38000
+486,2021,Honda,Civic,EX,44403,24998
+487,2018,Honda,Civic,EX-L Hatchback,43484,23462
+488,2022,Honda,Civic,Sport,8922,27998
+489,2020,Honda,Civic,EX Hatchback,74272,22999
+490,2015,Honda,Civic,Si,76987,18888
+491,2023,Honda,Civic,LX,3890,27995
+492,2020,Honda,Civic,Sport,29121,24873
+493,2022,Honda,Civic,EX,24691,26590
+494,2019,Honda,Civic,Type R Hatchback,30387,39256
+495,2018,Honda,Civic,EX Hatchback,76529,18997
+496,2022,Honda,Civic,Sport Touring Hatchback,33354,28987
+497,2022,Honda,Civic,Sport,30174,25999
+498,2022,Honda,Civic,Sport Hatchback,4434,29590
+499,2019,Honda,Civic,EX-L,49822,23300
+500,2016,Honda,Civic,LX,115458,13295
+501,2020,Honda,Civic,Sport,54648,23998
+502,2022,Honda,Civic,Sport Hatchback,8638,28998
+503,2019,Honda,Civic,Type R Hatchback,30387,39256
+504,2020,Honda,Civic,EX Hatchback,74272,22999
+505,2020,Honda,Civic,LX,17747,23998
+506,2020,Honda,Civic,Sport Hatchback,12967,26998
+507,2016,Honda,Civic,EX-T,169492,13731
+508,2020,Honda,Civic,Sport,112747,19996
+509,2020,Honda,Civic,Sport Hatchback,52358,23998
+510,2023,Honda,Civic,Sport,1526,29998
+511,2023,Honda,Civic,Sport,2230,29998
+512,2023,Honda,Civic,Sport,2087,29998
+513,2013,Honda,Civic,Si Coupe,135690,11975
+514,2019,Honda,Civic,Sport Touring Hatchback,39579,25998
+515,2020,Honda,Civic,EX Hatchback,13722,27135
+516,2023,Honda,Civic,Sport,7518,28998
+517,2022,Honda,Civic,Sport,45548,24999
+518,2022,Honda,Civic,Sport,12694,27590
+519,2019,Honda,Civic,LX,24159,20391
+520,2016,Honda,Civic,EX-T,60299,18770
+521,2016,Honda,Civic,EX-T,60299,18770
+522,2018,Honda,Civic,EX,43224,21672
+523,2016,Honda,Civic,LX,57301,18000
+524,2020,Honda,Civic,Sport Touring Hatchback,64629,25988
+525,2022,Honda,Civic,EX,10950,28998
+526,2020,Honda,Civic,EX Hatchback,8926,25999
+527,2023,Honda,Civic,Sport Hatchback,4120,29998
+528,2019,Honda,Civic,Type R Hatchback,7706,43590
+529,2018,Honda,Civic,Si,51957,24998
+530,2020,Honda,Civic,LX,21380,22509
+531,2011,Honda,Civic,LX,157204,7995
+532,2019,Honda,Civic,Si,52430,24990
+533,2021,Honda,Civic,Type R Hatchback,32023,41999
+534,2020,Honda,Civic,Sport,16581,25998
+535,2022,Honda,Civic,EX,13672,27990
+536,2022,Honda,Civic,Sport Touring Hatchback,9535,30998
+537,2015,Honda,Civic,LX,81365,15999
+538,2022,Honda,Civic,Touring,10261,30590
+539,2019,Honda,Civic,LX,44469,19900
+540,2016,Honda,Civic,EX-T,58889,19000
+541,2020,Honda,Civic,LX,21520,22990
+542,2020,Honda,Civic,LX,21520,22990
+543,2022,Honda,Civic,Sport,15282,27522
+544,2015,Honda,Civic,EX,113239,14900
+545,2022,Honda,Civic,Sport Hatchback,14068,27998
+546,2020,Honda,Civic,LX,17151,22589
+547,2019,Honda,Civic,Sport,47613,24998
+548,2017,Honda,Civic,LX,74975,17990
+549,2023,Honda,Civic,Si,1115,34990
+550,2012,Honda,Civic,LX,32973,16990
+551,2012,Honda,Civic,LX,49052,13950
+552,2018,Honda,Civic,LX,63120,15500
+553,2012,Honda,Civic,EX,136257,10399
+554,2019,Honda,Civic,EX,19395,24998
+555,2019,Honda,Civic,Type R Hatchback,4965,44998
+556,2021,Honda,Civic,Sport,43370,22999
+557,2019,Honda,Civic,Si Coupe,41893,26589
+558,2021,Honda,Civic,LX,33491,23215
+559,2020,Honda,Civic,Sport,54299,23454
+560,2018,Honda,Civic,EX,21225,23998
+561,2019,Honda,Civic,Sport,21181,23998
+562,2019,Honda,Civic,Si Coupe,44773,26998
+563,2019,Honda,Civic,Si Coupe,44773,26998
+564,2023,Honda,Civic,Sport,17375,28858
+565,2020,Honda,Civic,Si,101082,22999
+566,2016,Honda,Civic,EX-T,169492,13731
+567,2022,Honda,Civic,Touring,14156,29990
+568,2018,Honda,Civic,EX-T Coupe,34535,21762
+569,2019,Honda,Civic,Sport,20521,24998
+570,2023,Honda,Civic,Sport,6081,28999
+571,2022,Honda,Civic,Touring,45233,27990
+572,2021,Honda,Civic,EX,18642,26998
+573,2020,Honda,Civic,LX,27003,22990
+574,2020,Honda,Civic,LX,22890,23998
+575,2022,Honda,Civic,LX,12565,26589
+576,2022,Honda,Civic,EX,14022,27590
+577,2017,Honda,Civic,Si,31665,23949
+578,2018,Honda,Civic,LX,28111,20998
+579,2017,Honda,Civic,Si,54787,23991
+580,2008,Honda,Civic,LX,144701,7995
+581,2018,Honda,Civic,LX-P Coupe,26619,22601
+582,2021,Honda,Civic,Type R Hatchback,53738,38156
+583,2022,Honda,Civic,Touring,16235,30998
+584,2018,Honda,Civic,EX Hatchback,22506,24998
+585,2021,Honda,Civic,EX-L,63645,24499
+586,2018,Honda,Civic,EX,46071,22590
+587,2020,Honda,Civic,Sport,50318,19594
+588,2019,Honda,Civic,EX Hatchback,17021,25999
+589,2020,Honda,Civic,LX,24246,23998
+590,2019,Honda,Civic,Sport Hatchback,23241,24995
+591,2015,Honda,Civic,LX Coupe,65621,15996
+592,2019,Honda,Civic,Type R Hatchback,42909,37998
+593,2017,Honda,Civic,LX,33032,20990
+594,2014,Honda,Civic,EX-L,166021,10995
+595,2016,Honda,Civic,EX,55462,20590
+596,2019,Honda,Civic,EX,20926,23999
+597,2021,Honda,Civic,EX,35783,23596
+598,2020,Honda,Civic,Sport,19094,23999
+599,2019,Honda,Civic,EX,23804,24998
+600,2021,Honda,Civic,Type R Hatchback,5412,48977
+601,2013,Honda,Civic,LX Coupe,29390,18990
+602,2022,Honda,Civic,Sport,21236,26998
+603,2020,Honda,Civic,LX Hatchback,28090,22642
+604,2019,Honda,Civic,Type R Hatchback,31638,39589
+605,2020,Honda,Civic,LX Hatchback,28090,22642
+606,2020,Honda,Civic,LX,33415,21990
+607,2020,Honda,Civic,EX,59930,23609
+608,2016,Honda,Civic,Touring,26254,23990
+609,2016,Honda,Civic,Touring Coupe,175498,13990
+610,2019,Honda,Civic,Type R Hatchback,5434,44999
+611,2021,Honda,Civic,Type R Hatchback,17789,43476
+612,2017,Honda,Civic,LX,34964,20998
+613,2022,Honda,Civic,Sport,24205,27990
+614,2018,Honda,Civic,LX,38877,18999
+615,2019,Honda,Civic,Type R Hatchback,31336,39999
+616,2020,Honda,Civic,Sport,26903,21520
+617,2021,Honda,Civic,EX-L,24372,25998
+618,2019,Honda,Civic,LX,29046,22998
+619,2015,Honda,Civic,EX,41982,18490
+620,2020,Honda,Civic,EX-L,20958,24999
+621,2020,Honda,Civic,LX,30672,22590
+622,2019,Honda,Civic,LX,31729,21998
+623,2016,Honda,Civic,EX,35101,21998
+624,2021,Honda,Civic,Sport,51700,23781
+625,2015,Honda,Civic,LX,44647,17590
+626,2018,Honda,Civic,EX,47290,20488
+627,2008,Honda,Civic,LX,125431,8798
+628,2017,Honda,Civic,EX-T,39974,21990
+629,2018,Honda,Civic,EX-T,28728,23998
+630,2008,Honda,Civic,LX,140933,8499
+631,2020,Honda,Civic,EX,30225,23200
+632,2017,Honda,Civic,LX,34715,20998
+633,2009,Honda,Civic,LX Coupe,170878,5995
+634,2016,Honda,Civic,EX,85551,18990
+635,2020,Honda,Civic,LX,30580,22998
+636,2013,Honda,Civic,Si Coupe,121152,13999
+637,2020,Honda,Civic,LX,32837,21998
+638,2018,Honda,Civic,EX,50895,19790
+639,2020,Honda,Civic,Sport,31462,24286
+640,2020,Honda,Civic,EX,33285,26105
+641,2020,Honda,Civic,Sport,27390,24998
+642,2019,Honda,Civic,Type R Hatchback,40327,38589
+643,2013,Honda,Civic,LX,62548,15590
+644,2012,Honda,Civic,LX Coupe,88453,12258
+645,2017,Honda,Civic,EX-T,27364,22995
+646,2019,Honda,Civic,LX,34704,19992
+647,2019,Honda,Civic,LX,34704,19992
+648,2013,Honda,Civic,LX,62250,15990
+649,2014,Honda,Civic,LX,144074,10996
+650,2013,Honda,Civic,LX,66728,15990
+651,2016,Honda,Civic,LX,126852,15998
+652,2016,Honda,Civic,LX-P Coupe,73306,18990
+653,2015,Honda,Civic,EX,73577,16999
+654,2012,Honda,Civic,LX,96464,14998
+655,2020,Honda,Civic,LX,61586,19990
+656,2020,Honda,Civic,Sport,29843,23998
+657,2020,Honda,Civic,EX Hatchback,26830,25998
+658,2019,Honda,Civic,EX,30230,23998
+659,2020,Honda,Civic,EX,31911,24590
+660,2014,Honda,Civic,LX,88079,14998
+661,2016,Honda,Civic,LX,101060,16998
+662,2014,Honda,Civic,LX,98166,14599
+663,2020,Honda,Civic,Sport Coupe,30515,23000
+664,2016,Honda,Civic,EX-T Coupe,93700,17990
+665,2022,Honda,Civic,Sport Hatchback,24727,27998
+666,2021,Honda,Civic,EX,51312,21367
+667,2008,Honda,Civic,LX,75200,10498
+668,2016,Honda,Civic,EX-T Coupe,93700,17990
+669,2022,Honda,Civic,Sport Touring Hatchback,25423,29988
+670,2021,Honda,Civic,EX,51312,21367
+671,2008,Honda,Civic,LX,75200,10498
+672,2016,Honda,Civic,EX-L,110426,17998
+673,2017,Honda,Civic,EX-T,119932,17998
+674,2017,Honda,Civic,EX,58979,19990
+675,2016,Honda,Civic,LX,75451,17998
+676,2019,Honda,Civic,LX,84393,16500
+677,2018,Honda,Civic,LX,88642,17998
+678,2017,Honda,Civic,EX,61243,19990
+679,2013,Honda,Civic,EX,79332,15995
+680,2019,Honda,Civic,LX,33380,22998
+681,2019,Honda,Civic,LX,45181,19800
+682,2016,Honda,Civic,LX,46500,19590
+683,2020,Honda,Civic,Si Coupe,25358,27998
+684,2014,Honda,Civic,Hybrid,100240,14495
+685,2019,Honda,Civic,Type R Hatchback,15591,43589
+686,2019,Honda,Civic,Sport,114046,18500
+687,2020,Honda,Civic,LX,29329,21999
+688,2019,Honda,Civic,Sport Coupe,33916,22998
+689,2016,Honda,Civic,LX,82809,18590
+690,2019,Honda,Civic,Touring Coupe,22221,27590
+691,2014,Honda,Civic,EX,110811,14589
+692,2017,Honda,Civic,LX,49560,19590
+693,2021,Honda,Civic,EX-L,29809,26990
+694,2018,Honda,Civic,LX,39205,20998
+695,2020,Honda,Civic,LX,46281,21990
+696,2019,Honda,Civic,EX Hatchback,30691,24990
+697,2016,Honda,Civic,EX-L,102429,18998
+698,2020,Honda,Civic,Sport Touring Hatchback,24083,27999
+699,2018,Honda,Civic,LX Hatchback,99008,18998
+700,2018,Honda,Civic,LX,44136,20590
+701,2017,Honda,Civic,EX,44237,20590
+702,2018,Honda,Civic,EX-L Coupe,14756,25990
+703,2020,Honda,Civic,LX,85565,19997
+704,2018,Honda,Civic,LX,53409,19590
+705,2021,Honda,Civic,Type R Hatchback,16915,43998
+706,2020,Honda,Civic,LX,37939,20354
+707,2021,Honda,Civic,Sport,28777,26373
+708,2019,Honda,Civic,EX,35767,22998
+709,2022,Honda,Civic,LX,31016,24998
+710,2008,Honda,Civic,LX Coupe,134406,7495
+711,2017,Honda,Civic,EX-T,40713,21590
+712,2019,Honda,Civic,Sport,33400,23998
+713,2019,Honda,Civic,EX,60582,21289
+714,2020,Honda,Civic,EX-L Hatchback,29876,25998
+715,2017,Honda,Civic,LX,70587,19590
+716,2013,Honda,Civic,LX,90386,13736
+717,2019,Honda,Civic,Sport,43606,21998
+718,2016,Honda,Civic,LX,15141,21590
+719,2018,Honda,Civic,EX,74032,18999
+720,2019,Honda,Civic,Sport,33772,23998
+721,2018,Honda,Civic,LX,43488,20998
+722,2017,Honda,Civic,EX-T,47692,21998
+723,2018,Honda,Civic,EX-T,37083,22998
+724,2019,Honda,Civic,Sport Coupe,36230,22998
+725,2013,Honda,Civic,LX,116259,12999
+726,2018,Honda,Civic,EX-T,37224,22998
+727,2018,Honda,Civic,Touring,101262,19998
+728,2019,Honda,Civic,Type R Hatchback,20677,40999
+729,2015,Honda,Civic,Si,85098,19988
+730,2021,Honda,Civic,LX,45290,22990
+731,2018,Honda,Civic,Touring,101262,19998
+732,2019,Honda,Civic,Type R Hatchback,20677,40999
+733,2015,Honda,Civic,Si,85098,19988
+734,2021,Honda,Civic,LX,45290,22990
+735,2017,Honda,Civic,Touring,34232,22366
+736,2018,Honda,Civic,EX,90557,19998
+737,2020,Honda,Civic,EX,31226,25499
+738,2019,Honda,Civic,Sport,75126,21990
+739,2020,Honda,Civic,EX-L,32262,24998
+740,2023,Honda,Civic,Sport Touring Hatchback,3466,32682
+741,2018,Honda,Civic,EX,79586,19998
+742,2017,Honda,Civic,EX-T,91117,19998
+743,2020,Honda,Civic,EX,41826,21995
+744,2020,Honda,Civic,LX,40411,21998
+745,2022,Honda,Civic,Sport,30236,26491
+746,2016,Honda,Civic,EX,48730,20990
+747,2016,Honda,Civic,Touring,84766,18000
+748,2020,Honda,Civic,LX,49667,20998
+749,2018,Honda,Civic,Sport Hatchback,48673,22990
+750,2019,Honda,Civic,LX,40218,21998
+751,2019,Honda,Civic,Sport,74852,20465
+752,2019,Honda,Civic,Sport,74852,20465
+753,2019,Honda,Civic,LX,50026,20998
+754,2020,Honda,Civic,LX,40268,22672
+755,2017,Honda,Civic,EX-T,67490,20590
+756,2020,Honda,Civic,Si Coupe,18135,27988
+757,2019,Honda,Civic,LX,43621,21998
+758,2016,Honda,Civic,LX,93699,17590
+759,2019,Honda,Civic,LX,56580,20998
+760,2015,Honda,Civic,EX,21500,19990
+761,2019,Honda,Civic,LX,56726,20998
+762,2018,Honda,Civic,EX-T Coupe,64720,20998
+763,2015,Honda,Civic,Si Coupe,101527,19998
+764,2014,Honda,Civic,LX,87864,15990
+765,2017,Honda,Civic,EX-T,23984,23590
+766,2020,Honda,Civic,Sport,60390,21160
+767,2017,Honda,Civic,Sport Hatchback,67611,20998
+768,2020,Honda,Civic,Sport,43071,22543
+769,2017,Honda,Civic,EX-T,61158,20998
+770,2020,Honda,Civic,LX,46935,21998
+771,2018,Honda,Civic,LX,96256,16241
+772,2019,Honda,Civic,LX,47388,21998
+773,2021,Honda,Civic,Sport Hatchback,30905,25991
+774,2021,Honda,Civic,Sport,35911,24998
+775,2020,Honda,Civic,LX Coupe,40924,22998
+776,2018,Honda,Civic,EX,43695,22998
+777,2019,Honda,Civic,LX Coupe,41381,20990
+778,2015,Honda,Civic,Si,72736,21500
+779,2020,Honda,Civic,EX Hatchback,36668,24998
+780,2020,Honda,Civic,LX,54629,21998
+781,2019,Honda,Civic,LX,55325,21998
+782,2019,Honda,Civic,LX,43714,22495
+783,2018,Honda,Civic,EX-T,61479,21998
+784,2019,Honda,Civic,EX-L,95411,21991
+785,2018,Honda,Civic,EX Hatchback,35405,24998
+786,2020,Honda,Civic,LX Hatchback,43500,22998
+787,2021,Honda,Civic,Sport,40998,23954
+788,2020,Honda,Civic,LX,53629,21998
+789,2021,Honda,Civic,Sport,37169,24998
+790,2020,Honda,Civic,Sport,40565,23998
+791,2017,Honda,Civic,Si,59255,22998
+792,2019,Honda,Civic,Sport,40801,23998
+793,2021,Honda,Civic,Sport Hatchback,5888,27987
+794,2020,Honda,Civic,Sport,40744,23998
+795,2020,Honda,Civic,Sport,65643,22326
+796,2021,Honda,Civic,LX,53296,21100
+797,2018,Honda,Civic,EX,92055,19998
+798,2012,Honda,Civic,LX,20324,17998
+799,2018,Honda,Civic,EX,77656,19998
+800,2019,Honda,Civic,EX,50142,22998
+801,2020,Honda,Civic,Sport Hatchback,94404,22590
+802,2018,Honda,Civic,Type R Touring Hatchback,30502,39855
+803,2019,Honda,Civic,Si,55849,24990
+804,2019,Honda,Civic,Sport,42687,23998
+805,2020,Honda,Civic,EX Hatchback,39754,24998
+806,2021,Honda,Civic,Sport,38778,24998
+807,2019,Honda,Civic,Sport,39359,24998
+808,2021,Honda,Civic,EX-L,38003,25800
+809,2019,Honda,Civic,EX,57045,22998
+810,2019,Honda,Civic,Sport,45239,24046
+811,2018,Honda,Civic,Si,83153,22998
+812,2019,Honda,Civic,EX-L,40697,24998
+813,2020,Honda,Civic,Si,33692,27990
+814,2020,Honda,Civic,EX-L,42889,24590
+815,2019,Honda,Civic,Sport,56236,22998
+816,2019,Honda,Civic,LX,52146,20999
+817,2019,Honda,Civic,Sport,54142,23998
+818,2020,Honda,Civic,EX-L,48413,22362
+819,2021,Honda,Civic,Sport Hatchback,45654,25987
+820,2019,Honda,Civic,EX,49024,23998
+821,2021,Honda,Civic,Sport,43368,23499
+822,2015,Honda,Civic,SE,21637,18990
+823,2019,Honda,Civic,EX Hatchback,33989,24589
+824,2021,Honda,Civic,Sport Hatchback,38883,25998
+825,2018,Honda,Civic,Sport Touring Hatchback,39040,24998
+826,2020,Honda,Civic,Sport,49967,23998
+827,2020,Honda,Civic,EX Hatchback,45355,24990
+828,2020,Honda,Civic,Sport Coupe,38267,22998
+829,2018,Honda,Civic,Sport Touring Hatchback,64409,23990
+830,2020,Honda,Civic,EX Hatchback,74711,23998
+831,2020,Honda,Civic,EX Coupe,59779,20499
+832,2020,Honda,Civic,Sport,53948,23998
+833,2019,Honda,Civic,Type R Hatchback,69463,32000
+834,2020,Honda,Civic,Sport,65329,23998
+835,2020,Honda,Civic,Sport,49968,23788
+836,2018,Honda,Civic,Sport Touring Hatchback,39040,24998
+837,2020,Honda,Civic,Sport,49967,23998
+838,2020,Honda,Civic,EX Hatchback,45355,24990
+839,2020,Honda,Civic,Sport Coupe,38267,22998
+840,2018,Honda,Civic,Sport Touring Hatchback,64409,23990
+841,2020,Honda,Civic,EX Hatchback,74711,23998
+842,2020,Honda,Civic,Sport,53948,23998
+843,2019,Honda,Civic,Type R Hatchback,69463,32000
+844,2020,Honda,Civic,Sport,65329,23998
+845,2020,Honda,Civic,Sport,49968,23788
+846,2020,Honda,Civic,Sport,68636,20999
+847,2018,Honda,Civic,Si Coupe,46143,24998
+848,2018,Honda,Civic,EX-T,45110,22589
+849,2017,Honda,Civic,EX-L,64591,21589
+850,2017,Honda,Civic,Si Coupe,49103,24998
+851,2020,Honda,Civic,Sport,22140,24991
+852,2022,Honda,Civic,EX,39493,26998
+853,2019,Honda,Civic,Sport,47188,24998
+854,2021,Honda,Civic,Type R Hatchback,16611,45093
+855,2020,Honda,Civic,EX Coupe,59779,20499
+856,2013,Honda,Civic,EX-L,169305,9995
+857,2021,Honda,Civic,Sport,57574,21901
+858,2022,Honda,Civic,Si,28657,31589
+859,2019,Honda,Civic,Si,58949,25998
+860,2019,Honda,Civic,Sport,48845,22589
+861,2021,Honda,Civic,Sport Hatchback,12899,26998
+862,2020,Honda,Civic,Si,54895,24994
+863,2023,Honda,Civic,Sport,1768,29998
+864,2016,Honda,Civic,LX,174858,11991
+865,2020,Honda,Civic,Sport Hatchback,70365,22999
+866,2011,Honda,Civic,DX-VP,82699,11519
+867,2016,Honda,Civic,LX,63194,18990
+868,2020,Honda,Civic,EX Hatchback,41521,25589
+869,2022,Honda,Civic,Sport Touring Hatchback,16691,29905
+870,2019,Honda,Civic,Sport Touring Hatchback,11202,28998
+871,2020,Honda,Civic,Sport Hatchback,15629,25998
+872,2021,Honda,Civic,LX,20873,22998
+873,2014,Honda,Civic,LX,7638,20590
+874,2016,Honda,Civic,LX Coupe,61250,15950
+875,2018,Honda,Civic,EX-L Hatchback,17444,25998
+876,2019,Honda,Civic,Sport,27053,24534
+877,2021,Honda,Civic,EX Hatchback,54724,24999
+878,2022,Honda,Civic,Sport Touring Hatchback,16691,29905
+879,2019,Honda,Civic,Sport Touring Hatchback,11202,28998
+880,2021,Honda,Civic,EX-L,63645,24499
+881,2020,Honda,Civic,Sport Hatchback,15629,25998
+882,2021,Honda,Civic,LX,20873,22998
+883,2020,Honda,Civic,LX,20534,22998
+884,2014,Honda,Civic,LX,7638,20590
+885,2016,Honda,Civic,LX Coupe,61250,15950
+886,2018,Honda,Civic,EX-L Hatchback,17444,25998
+887,2021,Honda,Civic,EX Hatchback,54724,24999
+888,2018,Honda,Civic,EX-T,71421,18500
+889,2013,Honda,Civic,LX,122934,11900
+890,2021,Honda,Civic,Sport,48485,22999
+891,2012,Honda,Civic,EX,143696,10995
+892,2021,Honda,Civic,Type R Hatchback,46012,41590
+893,2019,Honda,Civic,Type R Hatchback,39849,39998
+894,2019,Honda,Civic,Touring Coupe,75423,20874
+895,2013,Honda,Civic,LX,80716,14500
+896,2018,Honda,Civic,LX,125329,15409
+897,2018,Honda,Civic,Touring,69283,22590
+898,2015,Honda,Civic,Natural Gas,12956,20590
+899,2020,Honda,Civic,Sport,27466,21889
+900,2021,Honda,Civic,Type R Hatchback,13309,43990
+901,2017,Honda,Civic,LX,71028,19590
+902,2018,Honda,Civic,Type R Touring Hatchback,62024,35998
+903,2018,Honda,Civic,EX,26324,22998
+904,2018,Honda,Civic,EX Hatchback,84847,19706
+905,2020,Honda,Civic,LX,30935,20698
+906,2019,Honda,Civic,EX,25546,23998
+907,2020,Honda,Civic,Sport Touring Hatchback,34188,24988
+908,2020,Honda,Civic,LX,27203,22998
+909,2014,Honda,Civic,EX-L,93405,16174
+910,2015,Honda,Civic,EX-L,33221,19998
+911,2015,Honda,Civic,LX,30984,18990
+912,2020,Honda,Civic,LX Hatchback,28125,24685
+913,2018,Honda,Civic,LX,31092,20998
+914,2019,Honda,Civic,Type R Hatchback,38474,39589
+915,2018,Honda,Civic,EX-T,113541,17991
+916,2016,Honda,Civic,LX,72857,16990
+917,2017,Honda,Civic,EX-T,85796,19590
+918,2020,Honda,Civic,Sport,28832,22131
+919,2016,Honda,Civic,LX,72857,16990
+920,2017,Honda,Civic,EX-T,85796,19590
+921,2020,Honda,Civic,Sport,28832,22131
+922,2010,Honda,Civic,LX,236910,4995
+923,2021,Honda,Civic,Type R Limited Edition Hatchback,22,59991
+924,2018,Honda,Civic,EX Hatchback,30368,21998
+925,2022,Honda,Civic,EX-L Hatchback,5,28740
+926,2022,Honda,Civic,Sport,22050,26998
+927,2019,Honda,Civic,LX,2619,23990
+928,2019,Honda,Civic,EX Hatchback,53250,22988
+929,2015,Honda,Civic,EX-L,111584,14995
+930,2017,Honda,Civic,Touring,4679,25990
+931,2017,Honda,Civic,LX,31866,21998
+932,2017,Honda,Civic,Touring,30257,22990
+933,2020,Honda,Civic,EX,30258,24700
+934,2019,Honda,Civic,LX,91424,18590
+935,2012,Honda,Civic,EX-L Coupe,44497,17590
+936,2020,Honda,Civic,EX-L Hatchback,45302,28000
+937,2006,Honda,Civic,LX,229500,5500
+938,2016,Honda,Civic,LX,89189,17990
+939,2019,Honda,Civic,LX,58306,20990
+940,2021,Honda,Civic,LX,6972,24998
+941,2013,Honda,Civic,LX,87824,13990
+942,2015,Honda,Civic,LX,84245,15590
+943,2016,Honda,Civic,Touring,123084,16065
+944,2019,Honda,Civic,Sport Hatchback,65304,21990
+945,2019,Honda,Civic,Sport,36616,24590
+946,2018,Honda,Civic,Sport Hatchback,34120,23890
+947,2014,Honda,Civic,LX Coupe,72948,15998
+948,2015,Honda,Civic,SE,43362,18998
+949,2018,Honda,Civic,EX-T,71224,20998
+950,2016,Honda,Civic,EX,187094,13300
+951,2019,Honda,Civic,Sport,30556,23998
+952,2020,Honda,Civic,LX,10403,24998
+953,2020,Honda,Civic,LX,5399,25998
+954,2023,Honda,Civic,Touring,20,35013
+955,2020,Honda,Civic,LX,13481,23998
+956,2012,Honda,Civic,LX,129640,11496
+957,2022,Honda,Civic,Sport,29361,26493
+958,2014,Honda,Civic,LX,20764,19990
+959,2020,Honda,Civic,LX,43506,20039
+960,2019,Honda,Civic,LX,54255,19900
+961,2020,Honda,Civic,LX,10403,24998
+962,2020,Honda,Civic,LX,5399,25998
+963,2023,Honda,Civic,Touring,20,35013
+964,2020,Honda,Civic,LX,13481,23998
+965,2012,Honda,Civic,LX,129640,11496
+966,2022,Honda,Civic,Sport,29361,26493
+967,2014,Honda,Civic,LX,20764,19990
+968,2020,Honda,Civic,LX,43506,20039
+969,2019,Honda,Civic,LX,54255,19900
+970,2016,Honda,Civic,EX,40048,20990
+971,2013,Honda,Civic,LX,71385,16590
+972,2018,Honda,Civic,Sport Hatchback,57337,21499
+973,2022,Honda,Civic,EX,28533,25998
+974,2019,Honda,Civic,LX,18675,22998
+975,2021,Honda,Civic,Sport,5008,26998
+976,2023,Honda,Civic,,4793,26998
+977,2017,Honda,Civic,LX,104152,17998
+978,2018,Honda,Civic,LX,40133,20998
+979,2014,Honda,Civic,Si Coupe,80228,18998
+980,2016,Honda,Civic,EX-T,86330,18998
+981,2012,Honda,Civic,LX,70805,14495
+982,2018,Honda,Civic,LX,44354,20990
+983,2021,Honda,Civic,Sport,5008,27998
+984,2018,Honda,Civic,EX,37992,22590
+985,2015,Honda,Civic,LX,28782,18990
+986,2023,Honda,Civic,LX,5524,27998
+987,2023,Honda,Civic,Sport,8266,29998
+988,2020,Honda,Civic,LX,14600,24998
+989,2017,Honda,Civic,EX,72326,19998
+990,2020,Honda,Civic,LX,10260,23589
+991,2019,Honda,Civic,LX,46827,20998
+992,2019,Honda,Civic,LX,16710,23998
+993,2018,Honda,Civic,EX-L,34996,23998
+994,2020,Honda,Civic,Sport,33684,24998
+995,2020,Honda,Civic,LX,17140,23998
+996,2019,Honda,Civic,Sport,37634,22998
+997,2023,Honda,Civic,LX Hatchback,4660,28998
+998,2020,Honda,Civic,Sport Hatchback,56405,24882
+999,2022,Honda,Civic,Touring,2555,27000
+1000,2022,Honda,Civic,EX-L Hatchback,19044,29458
+1001,2020,Honda,Civic,EX,16048,24998
+1002,2020,Honda,Civic,Sport,45914,25994
+1003,2022,Honda,Civic,Sport,7772,28998
+1004,2022,Honda,Civic,EX,13255,28590
+1005,2023,Honda,Civic,Sport,8599,28998
+1006,2020,Honda,Civic,Sport,12096,26998
+1007,2019,Honda,Civic,Sport,39651,22998
+1008,2021,Honda,Civic,LX,16045,24998
+1009,2019,Honda,Civic,EX Hatchback,13727,26590
+1010,2019,Honda,Civic,LX,17807,23998
+1011,2018,Honda,Civic,Touring,93981,20998
+1012,2019,Honda,Civic,EX Hatchback,12873,26998
+1013,2018,Honda,Civic,Sport Touring Hatchback,112798,20998
+1014,2016,Honda,Civic,LX,21412,21990
+1015,2018,Honda,Civic,EX,50689,21499
+1016,2018,Honda,Civic,EX-T,66634,20998
+1017,2022,Honda,Civic,Sport Hatchback,1404,29998
+1018,2023,Honda,Civic,Sport,4165,29998
+1019,2023,Honda,Civic,Sport,3884,29998
+1020,2022,Honda,Civic,Sport Hatchback,4285,29998
+1021,2022,Honda,Civic,EX,32493,25998
+1022,2023,Honda,Civic,Sport,5467,29998
+1023,2014,Honda,Civic,LX Coupe,78242,16590
+1024,2021,Honda,Civic,LX,16045,24998
+1025,2019,Honda,Civic,EX Hatchback,13727,26590
+1026,2019,Honda,Civic,LX,17807,23998
+1027,2018,Honda,Civic,Touring,93981,20998
+1028,2019,Honda,Civic,EX Hatchback,12873,26998
+1029,2018,Honda,Civic,Sport Touring Hatchback,112798,20998
+1030,2016,Honda,Civic,LX,21412,21990
+1031,2018,Honda,Civic,EX,50689,21499
+1032,2018,Honda,Civic,EX-T,66634,20998
+1033,2022,Honda,Civic,Sport Hatchback,1404,29998
+1034,2023,Honda,Civic,Sport,3884,29998
+1035,2023,Honda,Civic,Sport,4165,29998
+1036,2022,Honda,Civic,Sport Hatchback,4285,29998
+1037,2022,Honda,Civic,EX,32493,25998
+1038,2023,Honda,Civic,Sport,5467,29998
+1039,2019,Honda,Civic,LX Hatchback,40567,22998
+1040,2014,Honda,Civic,LX Coupe,78242,16590
+1041,2018,Honda,Civic,EX,78887,20998
+1042,2018,Honda,Civic,Sport Hatchback,81454,20998
+1043,2019,Honda,Civic,LX Hatchback,37851,22998
+1044,2019,Honda,Civic,EX-L Hatchback,35015,24998
+1045,2022,Honda,Civic,EX-L Hatchback,9219,29998
+1046,2021,Honda,Civic,Sport,31261,22849
+1047,2022,Honda,Civic,LX,10237,25999
+1048,2023,Honda,Civic,Sport,946,30998
+1049,2013,Honda,Civic,LX,39520,17590
+1050,2019,Honda,Civic,Touring,14931,26998
+1051,2018,Honda,Civic,Sport Hatchback,52766,21998
+1052,2022,Honda,Civic,Sport Hatchback,4426,31998
+1053,2013,Honda,Civic,LX,28323,17990
+1054,2022,Honda,Civic,LX,39357,23998
+1055,2022,Honda,Civic,Sport,12048,28998
+1056,2019,Honda,Civic,Sport,45127,22998
+1057,2019,Honda,Civic,Sport Hatchback,74363,21998
+1058,2022,Honda,Civic,Sport,12704,28998
+1059,2022,Honda,Civic,Touring,10242,30998
+1060,2021,Honda,Civic,Sport Hatchback,13377,27998
+1061,2020,Honda,Civic,LX,23275,25999
+1062,2019,Honda,Civic,Sport,40598,23998
+1063,2019,Honda,Civic,EX,41218,23998
+1064,2022,Honda,Civic,Sport Touring Hatchback,1186,33998
+1065,2019,Honda,Civic,EX,47668,22998
+1066,2019,Honda,Civic,EX,47668,22998
+1067,2022,Honda,Civic,Sport,13659,27998
+1068,2019,Honda,Civic,Sport Hatchback,76184,21998
+1069,2009,Honda,Civic,DX-VP,42181,8995
+1070,2019,Honda,Civic,Type R Hatchback,43578,37812
+1071,2022,Honda,Civic,Si,2940,34998
+1072,2018,Honda,Civic,Sport Hatchback,48496,22998
+1073,2019,Honda,Civic,Sport,12136,24589
+1074,2019,Honda,Civic,Sport Coupe,33212,23317
+1075,2016,Honda,Civic,EX,23720,21998
+1076,2012,Honda,Civic,LX,28585,17998
+1077,2020,Honda,Civic,LX,15311,24999
+1078,2020,Honda,Civic,Sport,17518,25946
+1079,2023,Honda,Civic,Si,983,36998
+1080,2021,Honda,Civic,LX,16935,22999
+1081,2022,Honda,Civic,Sport,14750,27998
+1082,2022,Honda,Civic,Sport Hatchback,13295,29995
+1083,2023,Honda,Civic,Si,4548,34998
+1084,2022,Honda,Civic,Sport,13213,28998
+1085,2023,Honda,Civic,Type R Hatchback,2550,56998
+1086,2023,Honda,Civic,Sport,12481,29998
+1087,2022,Honda,Civic,Sport Touring Hatchback,11037,31998
+1088,2022,Honda,Civic,Sport,16162,26998
+1089,2015,Honda,Civic,LX,27309,19998
+1090,2019,Honda,Civic,EX,21653,24998
+1091,2019,Honda,Civic,Sport,55777,22998
+1092,2018,Honda,Civic,EX-L Hatchback,45004,23998
+1093,2019,Honda,Civic,EX Coupe,19883,24990
+1094,2017,Honda,Civic,LX Coupe,23207,22990
+1095,2018,Honda,Civic,EX-T,48640,20999
+1096,2020,Honda,Civic,LX,23240,22990
+1097,2015,Honda,Civic,EX-L,99150,14998
+1098,2018,Honda,Civic,EX,20828,23998
+1099,2021,Honda,Civic,Sport,20244,26590
+1100,2022,Honda,Civic,Si,11209,33990
+1101,2020,Honda,Civic,LX,10261,24999
+1102,2019,Honda,Civic,LX,59199,20500
+1103,2020,Honda,Civic,Type R Hatchback,6100,46998
+1104,2017,Honda,Civic,EX,21947,23998
+1105,2019,Honda,Civic,EX-L,19259,25998
+1106,2022,Honda,Civic,Sport,16411,27998
+1107,2014,Honda,Civic,EX,16550,19990
+1108,2019,Honda,Civic,EX Coupe,19883,24990
+1109,2017,Honda,Civic,LX Coupe,23207,22990
+1110,2018,Honda,Civic,EX-T,48640,20999
+1111,2020,Honda,Civic,LX,23240,22990
+1112,2015,Honda,Civic,EX-L,99150,14998
+1113,2018,Honda,Civic,EX,20828,23998
+1114,2021,Honda,Civic,Sport,20244,26590
+1115,2022,Honda,Civic,Si,11209,33990
+1116,2020,Honda,Civic,LX,10261,24999
+1117,2019,Honda,Civic,LX,59199,20500
+1118,2020,Honda,Civic,Type R Hatchback,6100,46998
+1119,2017,Honda,Civic,EX,21947,23998
+1120,2022,Honda,Civic,Sport,16411,27998
+1121,2014,Honda,Civic,EX,16550,19990
+1122,2022,Honda,Civic,Sport,15345,28998
+1123,2020,Honda,Civic,EX-L Hatchback,78287,23590
+1124,2022,Honda,Civic,EX-L Hatchback,14766,29998
+1125,2020,Honda,Civic,LX,70265,20990
+1126,2021,Honda,Civic,Sport Hatchback,10652,27589
+1127,2018,Honda,Civic,Sport Hatchback,53191,23998
+1128,2020,Honda,Civic,Si Coupe,16236,28990
+1129,2021,Honda,Civic,EX-L,18941,26998
+1130,2020,Honda,Civic,Sport,45381,23990
+1131,2019,Honda,Civic,Si,20017,27990
+1132,2020,Honda,Civic,EX-L Hatchback,17859,27998
+1133,2013,Honda,Civic,EX Coupe,58226,17590
+1134,2023,Honda,Civic,Sport,968,29999
+1135,2020,Honda,Civic,LX Hatchback,10221,24999
+1136,2022,Honda,Civic,Sport,16960,28998
+1137,2019,Honda,Civic,Sport Coupe,20585,25998
+1138,2021,Honda,Civic,Sport Touring Hatchback,45197,25795
+1139,2020,Honda,Civic,Si,40691,26998
+1140,2020,Honda,Civic,EX-L,21131,25998
+1141,2020,Honda,Civic,EX,21162,25998
+1142,2016,Honda,Civic,LX,105671,18045
+1143,2012,Honda,Civic,LX,33941,17998
+1144,2020,Honda,Civic,Si,18299,28998
+1145,2014,Honda,Civic,LX,33698,18990
+1146,2019,Honda,Civic,LX,23301,22999
+1147,2022,Honda,Civic,Sport,20412,27352
+1148,2020,Honda,Civic,LX,24577,23998
+1149,2020,Honda,Civic,EX-L,22215,25998
+1150,2020,Honda,Civic,Sport,22549,25998
+1151,2020,Honda,Civic,LX,27473,22990
+1152,2013,Honda,Civic,Si Coupe,25636,23998
+1153,2018,Honda,Civic,,24984,24590
+1154,2022,Honda,Civic,LX,19837,28766
+1155,2018,Honda,Civic,EX Hatchback,23865,24998
+1156,2018,Honda,Civic,,20639,24589
+1157,2021,Honda,Civic,Sport,24521,24998
+1158,2020,Honda,Civic,LX,27593,22998
+1159,2012,Honda,Civic,LX,106332,13990
+1160,2019,Honda,Civic,LX,26850,22998
+1161,2019,Honda,Civic,Type R Hatchback,5434,44999
+1162,2022,Honda,Civic,LX,17435,30500
+1163,2017,Honda,Civic,Si,72003,23590
+1164,2020,Honda,Civic,LX Coupe,26382,23998
+1165,2019,Honda,Civic,LX,32431,21998
+1166,2009,Honda,Civic,,137152,6995
+1167,2013,Honda,Civic,EX-L,35240,20990
+1168,2019,Honda,Civic,LX,49848,19049
+1169,2020,Honda,Civic,Touring Coupe,25858,26998
+1170,2022,Honda,Civic,Sport,24205,27990
+1171,2020,Honda,Civic,EX Hatchback,22430,26998
+1172,2022,Honda,Civic,Sport Hatchback,21292,27998
+1173,2013,Honda,Civic,EX,71840,16990
+1174,2020,Honda,Civic,Sport,25368,24990
+1175,2011,Honda,Civic,LX,75229,13990
+1176,2013,Honda,Civic,LX,95803,15990
+1177,2021,Honda,Civic,Type R Hatchback,596,47589
+1178,2012,Honda,Civic,EX Coupe,95475,14590
+1179,2015,Honda,Civic,LX Coupe,101738,14590
+1180,2022,Honda,Civic,EX,21125,27998
+1181,2020,Honda,Civic,EX,28573,26499
+1182,2020,Honda,Civic,LX,22817,22999
+1183,2019,Honda,Civic,EX,24069,25998
+1184,2022,Honda,Civic,Sport,24244,27590
+1185,2012,Honda,Civic,EX,64730,15990
+1186,2014,Honda,Civic,LX,42724,18990
+1187,2014,Honda,Civic,LX,53542,16990
+1188,2018,Honda,Civic,EX,35189,22499
+1189,2019,Honda,Civic,Sport,25125,24998
+1190,2013,Honda,Civic,LX,106274,14599
+1191,2021,Honda,Civic,LX,25507,24998
+1192,2019,Honda,Civic,Touring,24437,25998
+1193,2019,Honda,Civic,LX,30815,21998
+1194,2018,Honda,Civic,LX,30567,21998
+1195,2014,Honda,Civic,LX,91384,15998
+1196,2013,Honda,Civic,EX,75331,16590
+1197,2013,Honda,Civic,LX,39237,18590
+1198,2014,Honda,Civic,LX,61595,16990
+1199,2015,Honda,Civic,Si Coupe,117845,21991
+1200,2020,Honda,Civic,LX,28453,22998
+1201,2016,Honda,Civic,EX-T Coupe,43273,21990
+1202,2015,Honda,Civic,EX Coupe,91846,16990
+1203,2022,Honda,Civic,EX-L Hatchback,15768,28999
+1204,2012,Honda,Civic,LX,42593,16998
+1205,2017,Honda,Civic,LX,33599,20998
+1206,2022,Honda,Civic,Si,18769,33590
+1207,2019,Honda,Civic,Sport Hatchback,20147,25589
+1208,2016,Honda,Civic,LX,126373,15998
+1209,2022,Honda,Civic,Touring,20210,30990
+1210,2020,Honda,Civic,LX,29771,22998
+1211,2016,Honda,Civic,EX,35101,21998
+1212,2019,Honda,Civic,Sport Hatchback,24654,25999
+1213,2010,Honda,Civic,DX-VP,49644,14590
+1214,2019,Honda,Civic,LX,22636,32899
+1215,2009,Honda,Civic,GX Natural Gas (CNG),58839,9999
+1216,2020,Honda,Civic,LX,24629,22999
+1217,2020,Honda,Civic,Si,28569,27444
+1218,2020,Honda,Civic,Sport Hatchback,20140,25999
+1219,2015,Honda,Civic,EX,77586,17990
+1220,2010,Honda,Civic,LX,155005,8999
+1221,2010,Honda,Civic,,110679,10999
+1222,2020,Honda,Civic,Type R Hatchback,37360,40998
+1223,2021,Honda,Civic,LX,26806,24998
+1224,2013,Honda,Civic,LX,45561,17590
+1225,2021,Honda,Civic,LX,28559,23998
+1226,2007,Honda,Civic,,120821,8998
+1227,2018,Honda,Civic,LX,91069,17998
+1228,2011,Honda,Civic,LX,58772,14990
+1229,2009,Honda,Civic,LX,123108,12990
+1230,2014,Honda,Civic,LX Coupe,99950,15590
+1231,2013,Honda,Civic,LX Coupe,49962,16998
+1232,2019,Honda,Civic,Si,23516,27998
+1233,2015,Honda,Civic,SE,52450,18990
+1234,2010,Honda,Civic,,110679,10999
+1235,2020,Honda,Civic,Type R Hatchback,37360,40998
+1236,2021,Honda,Civic,LX,26806,24998
+1237,2013,Honda,Civic,LX,45561,17590
+1238,2021,Honda,Civic,LX,28559,23998
+1239,2007,Honda,Civic,,120821,8998
+1240,2018,Honda,Civic,LX,91069,17998
+1241,2011,Honda,Civic,LX,58772,14990
+1242,2009,Honda,Civic,LX,123108,12990
+1243,2014,Honda,Civic,LX Coupe,99950,15590
+1244,2013,Honda,Civic,LX Coupe,49962,16998
+1245,2019,Honda,Civic,Si,23516,27998
+1246,2015,Honda,Civic,SE,52450,18990
+1247,2020,Honda,Civic,Sport,25842,25998
+1248,2009,Honda,Civic,,144515,10999
+1249,2011,Honda,Civic,EX,71406,14990
+1250,2014,Honda,Civic,LX,118062,14599
+1251,2010,Honda,Civic,LX-S,78764,13990
+1252,2011,Honda,Civic,LX,79811,13990
+1253,2011,Honda,Civic,LX-S,157160,9499
+1254,2012,Honda,Civic,Hybrid,84299,12990
+1255,2022,Honda,Civic,Si,14695,35933
+1256,2014,Honda,Civic,LX,73362,15990
+1257,2014,Honda,Civic,LX,81585,15990
+1258,2014,Honda,Civic,EX,97905,15990
+1259,2013,Honda,Civic,LX,82208,15990
+1260,2013,Honda,Civic,EX,94792,15990
+1261,2013,Honda,Civic,LX,81707,15998
+1262,2013,Honda,Civic,EX,104323,15998
+1263,2013,Honda,Civic,EX Coupe,97956,15998
+1264,2015,Honda,Civic,LX,120598,14998
+1265,2014,Honda,Civic,LX,126674,14599
+1266,2015,Honda,Civic,LX Coupe,40919,19507
+1267,2019,Honda,Civic,LX,31398,22998
+1268,2013,Honda,Civic,LX Coupe,40497,16990
+1269,2014,Honda,Civic,LX,56351,16990
+1270,2014,Honda,Civic,LX,56423,16990
+1271,2013,Honda,Civic,LX,86257,15998
+1272,2015,Honda,Civic,LX,99373,15998
+1273,2013,Honda,Civic,LX Coupe,103849,15998
+1274,2014,Honda,Civic,LX,78083,16590
+1275,2015,Honda,Civic,LX,90908,16590
+1276,2013,Honda,Civic,LX,58775,16990
+1277,2021,Honda,Civic,LX,28284,24990
+1278,2012,Honda,Civic,HF,101055,13998
+1279,2012,Honda,Civic,LX,106109,13998
+1280,2013,Honda,Civic,LX Coupe,107300,14998
+1281,2012,Honda,Civic,LX,103500,14599
+1282,2012,Honda,Civic,,52573,17590
+1283,2018,Honda,Civic,LX,120230,15998
+1284,2013,Honda,Civic,EX Coupe,73640,16990
+1285,2015,Honda,Civic,LX Coupe,75651,16990
+1286,2015,Honda,Civic,SE,80208,16990
+1287,2015,Honda,Civic,LX,86570,16990
+1288,2022,Honda,Civic,Sport,24128,27998
+1289,2020,Honda,Civic,EX Hatchback,21460,25999
+1290,2014,Honda,Civic,EX,74675,16998
+1291,2013,Honda,Civic,,86325,16998
+1292,2015,Honda,Civic,EX-L Coupe,95026,16998
+1293,2013,Honda,Civic,Si Coupe,126633,16998
+1294,2020,Honda,Civic,EX Hatchback,28764,26990
+1295,2014,Honda,Civic,LX,51353,17990
+1296,2014,Honda,Civic,LX,56684,17590
+1297,2015,Honda,Civic,SE,80208,16990
+1298,2015,Honda,Civic,LX,86570,16990
+1299,2022,Honda,Civic,Sport,24128,27998
+1300,2020,Honda,Civic,EX Hatchback,21460,25999
+1301,2014,Honda,Civic,EX,74675,16998
+1302,2013,Honda,Civic,,86325,16998
+1303,2015,Honda,Civic,EX-L Coupe,95026,16998
+1304,2013,Honda,Civic,Si Coupe,126633,16998
+1305,2020,Honda,Civic,EX Hatchback,28764,26990
+1306,2014,Honda,Civic,LX,51353,17990
+1307,2014,Honda,Civic,LX,56684,17590
+1308,2019,Honda,Civic,Sport Coupe,28327,24998
+1309,2013,Honda,Civic,LX,67055,16998
+1310,2013,Honda,Civic,LX,68605,16998
+1311,2015,Honda,Civic,LX Coupe,77543,16998
+1312,2016,Honda,Civic,LX,115842,16998
+1313,2017,Honda,Civic,LX,104466,16998
+1314,2017,Honda,Civic,LX,96747,16998
+1315,2017,Honda,Civic,LX-P Coupe,69756,19990
+1316,2013,Honda,Civic,LX,95358,14998
+1317,2012,Honda,Civic,EX,102543,14998
+1318,2019,Honda,Civic,LX,27665,22999
+1319,2018,Honda,Civic,LX,32540,22998
+1320,2020,Honda,Civic,Sport,27189,25998
+1321,2015,Honda,Civic,LX Coupe,91662,16998
+1322,2016,Honda,Civic,LX,121048,16998
+1323,2022,Honda,Civic,Sport Hatchback,17610,28999
+1324,2013,Honda,Civic,,58213,17990
+1325,2018,Honda,Civic,LX,54033,19990
+1326,2014,Honda,Civic,LX,48348,17998
+1327,2016,Honda,Civic,EX-T,100890,17944
+1328,2013,Honda,Civic,,61645,17998
+1329,2019,Honda,Civic,EX,30994,24086
+1330,2018,Honda,Civic,EX,31092,23998
+1331,2016,Honda,Civic,LX,87480,17990
+1332,2014,Honda,Civic,LX,57274,17998
+1333,2012,Honda,Civic,LX,121652,13998
+1334,2019,Honda,Civic,EX,29409,24998
+1335,2017,Honda,Civic,,36840,22990
+1336,2010,Honda,Civic,EX Coupe,206610,7499
+1337,2015,Honda,Civic,LX,58634,17998
+1338,2016,Honda,Civic,EX,123668,16998
+1339,2021,Honda,Civic,Sport,26195,26998
+1340,2017,Honda,Civic,EX,32138,22998
+1341,2016,Honda,Civic,LX,105522,16495
+1342,2014,Honda,Civic,LX,60817,17998
+1343,2016,Honda,Civic,EX,36994,22990
+1344,2014,Honda,Civic,EX,53843,18590
+1345,2016,Honda,Civic,EX,116325,17998
+1346,2017,Honda,Civic,LX-P Coupe,58589,20590
+1347,2015,Honda,Civic,LX,62998,17998
+1348,2013,Honda,Civic,EX,79399,15999
+1349,2018,Honda,Civic,LX Hatchback,37150,21950
+1350,2015,Honda,Civic,LX Coupe,68940,17998
+1351,2015,Honda,Civic,LX,72237,17998
+1352,2015,Honda,Civic,LX,73824,17998
+1353,2016,Honda,Civic,LX,94258,17998
+1354,2017,Honda,Civic,LX Coupe,93467,17998
+1355,2017,Honda,Civic,EX,28982,22589
+1356,2023,Honda,Civic,Type R Hatchback,134,55490
+1357,2019,Honda,Civic,LX,36380,21998
+1358,2016,Honda,Civic,LX,75759,17998
+1359,2017,Honda,Civic,LX,110924,17998
+1360,2016,Honda,Civic,LX-P Coupe,82775,18590
+1361,2013,Honda,Civic,EX-L,125799,14998
+1362,2018,Honda,Civic,LX,47177,20998
+1363,2016,Honda,Civic,EX,44358,21590
+1364,2020,Honda,Civic,LX,31941,23998
+1365,2012,Honda,Civic,LX,120538,16995
+1366,2015,Honda,Civic,SE,142465,12000
+1367,2017,Honda,Civic,Sport Hatchback,26881,23589
+1368,2009,Honda,Civic,Hybrid,92750,8995
+1369,2015,Honda,Civic,SE,54841,18998
+1370,2016,Honda,Civic,EX,89885,18998
+1371,2014,Honda,Civic,EX-L,62721,18998
+1372,2015,Honda,Civic,EX-L,67836,18990
+1373,2016,Honda,Civic,EX-L Coupe,87008,18998
+1374,2016,Honda,Civic,EX,98506,18998
+1375,2016,Honda,Civic,,96726,18998
+1376,2017,Honda,Civic,,106845,18998
+1377,2016,Honda,Civic,LX,72505,18990
+1378,2016,Honda,Civic,LX Coupe,79149,18990
+1379,2021,Honda,Civic,LX,32650,23998
+1380,2020,Honda,Civic,LX,34812,22998
+1381,2015,Honda,Civic,EX-L Coupe,58479,19197
+1382,2016,Honda,Civic,EX,87937,18998
+1383,2016,Honda,Civic,EX,94970,18998
+1384,2016,Honda,Civic,EX-L,99425,18998
+1385,2017,Honda,Civic,EX,103847,18998
+1386,2015,Honda,Civic,SE,60025,18998
+1387,2014,Honda,Civic,LX,70201,16998
+1388,2020,Honda,Civic,Type R Hatchback,15105,43999
+1389,2016,Honda,Civic,LX,70066,18998
+1390,2022,Honda,Civic,Sport,22895,26589
+1391,2016,Honda,Civic,LX,85765,18998
+1392,2020,Honda,Civic,LX,127278,18998
+1393,2016,Honda,Civic,LX,89381,18998
+1394,2018,Honda,Civic,LX,38574,21990
+1395,2021,Honda,Civic,Sport Touring Hatchback,24823,29998
+1396,2017,Honda,Civic,EX-T Coupe,58259,20990
+1397,2019,Honda,Civic,Sport,33364,23990
+1398,2017,Honda,Civic,LX,42657,20998
+1399,2018,Honda,Civic,LX,42722,20998
+1400,2015,Honda,Civic,EX-L,10397,22590
+1401,2016,Honda,Civic,LX,75645,18998
+1402,2020,Honda,Civic,Sport Coupe,30667,24998
+1403,2017,Honda,Civic,LX Coupe,84804,18998
+1404,2016,Honda,Civic,EX,85415,18998
+1405,2012,Honda,Civic,Si Coupe,89401,18998
+1406,2014,Honda,Civic,EX,100599,19900
+1407,2015,Honda,Civic,EX-L,96613,19900
+1408,2013,Honda,Civic,,114506,19900
+1409,2017,Honda,Civic,LX,6934,21998
+1410,2016,Honda,Civic,LX,64695,20998
+1411,2018,Honda,Civic,EX,61182,17995
+1412,2021,Honda,Civic,Sport,30509,25590
+1413,2017,Honda,Civic,LX,50607,19998
+1414,2017,Honda,Civic,LX,54707,19990
+1415,2017,Honda,Civic,LX-P Coupe,39779,21998
+1416,2018,Honda,Civic,LX,37799,21998
+1417,2017,Honda,Civic,EX,122471,18998
+1418,2020,Honda,Civic,Si,29776,27998
+1419,2016,Honda,Civic,LX Coupe,56953,19990
+1420,2020,Honda,Civic,Sport,30306,25998
+1421,2018,Honda,Civic,LX,39760,21998
+1422,2015,Honda,Civic,Si Coupe,62762,24508
+1423,2020,Honda,Civic,LX,39920,21998
+1424,2017,Honda,Civic,LX,58676,19998
+1425,2017,Honda,Civic,LX,56463,19998
+1426,2016,Honda,Civic,EX,76275,19998
+1427,2017,Honda,Civic,Touring,98366,19990
+1428,2016,Honda,Civic,Touring Coupe,87415,19998
+1429,2018,Honda,Civic,LX Coupe,78215,19990
+1430,2017,Honda,Civic,EX-T,91455,19990
+1431,2017,Honda,Civic,EX,88956,19990
+1432,2018,Honda,Civic,EX Hatchback,113449,19998
+1433,2016,Honda,Civic,LX,60580,19998
+1434,2016,Honda,Civic,EX,73561,19998
+1435,2017,Honda,Civic,LX,58647,19998
+1436,2017,Honda,Civic,EX,77710,19998
+1437,2018,Honda,Civic,EX-T,105549,19998
+1438,2016,Honda,Civic,EX-L,90680,19998
+1439,2016,Honda,Civic,EX,94195,19998
+1440,2016,Honda,Civic,EX-T,97436,19998
+1441,2019,Honda,Civic,EX Coupe,40473,23990
+1442,2018,Honda,Civic,LX,40531,21998
+1443,2019,Honda,Civic,EX,32458,24998
+1444,2016,Honda,Civic,LX,63347,19998
+1445,2016,Honda,Civic,LX,65135,19998
+1446,2017,Honda,Civic,LX,89670,19998
+1447,2018,Honda,Civic,EX,97717,19998
+1448,2020,Honda,Civic,Sport,27043,24589
+1449,2017,Honda,Civic,EX-L,35017,23998
+1450,2016,Honda,Civic,LX,58213,19998
+1451,2020,Honda,Civic,Sport,35277,23990
+1452,2014,Honda,Civic,LX,14679,19998
+1453,2022,Honda,Civic,Sport,28232,27990
+1454,2017,Honda,Civic,EX-L,34937,23998
+1455,2019,Honda,Civic,Sport,54404,21990
+1456,2018,Honda,Civic,EX-T,35374,23998
+1457,2022,Honda,Civic,Touring,23926,29999
+1458,2017,Honda,Civic,LX,66451,19998
+1459,2014,Honda,Civic,Hybrid,101144,10995
+1460,2017,Honda,Civic,EX,55292,21990
+1461,2016,Honda,Civic,EX-T,49556,20998
+1462,2018,Honda,Civic,LX Hatchback,70702,20998
+1463,2018,Honda,Civic,EX,50734,20990
+1464,2018,Honda,Civic,EX,60330,20590
+1465,2013,Honda,Civic,EX,40862,19991
+1466,2015,Honda,Civic,EX,76615,20900
+1467,2017,Honda,Civic,EX,91110,20900
+1468,2018,Honda,Civic,LX,52816,20995
+1469,2021,Honda,Civic,EX Hatchback,33840,26990
+1470,2016,Honda,Civic,EX-L,69331,20590
+1471,2018,Honda,Civic,LX,66367,19998
+1472,2020,Honda,Civic,Sport Coupe,83195,20590
+1473,2018,Honda,Civic,LX,49840,20998
+1474,2017,Honda,Civic,EX,55592,21998
+1475,2017,Honda,Civic,Touring Coupe,70244,21990
+1476,2018,Honda,Civic,LX,43989,21990
+1477,2016,Honda,Civic,EX,81741,19998
+1478,2014,Honda,Civic,LX,98643,14999
+1479,2021,Honda,Civic,LX,35844,23998
+1480,2020,Honda,Civic,LX,39167,22998
+1481,2020,Honda,Civic,LX,44700,21990
+1482,2021,Honda,Civic,Sport Hatchback,30291,26998
+1483,2019,Honda,Civic,LX,38825,22998
+1484,2019,Honda,Civic,Sport Touring Hatchback,28475,27998
+1485,2022,Honda,Civic,EX,29034,27998
+1486,2020,Honda,Civic,LX,44355,21998
+1487,2018,Honda,Civic,LX,53942,20998
+1488,2018,Honda,Civic,LX-P Coupe,54785,20998
+1489,2018,Honda,Civic,LX,55357,20998
+1490,2017,Honda,Civic,EX-L,65170,20990
+1491,2019,Honda,Civic,LX Coupe,55661,20998
+1492,2016,Honda,Civic,Touring,78362,20998
+1493,2017,Honda,Civic,EX-T,65727,20998
+1494,2018,Honda,Civic,LX,57868,20998
+1495,2016,Honda,Civic,EX-T,75995,20998
+1496,2018,Honda,Civic,Si,117274,20998
+1497,2017,Honda,Civic,EX-T,82951,20998
+1498,2018,Honda,Civic,Si,119240,20998
+1499,2017,Honda,Civic,,91270,20998
+1500,2019,Honda,Civic,LX,53791,20998
+1501,2017,Honda,Civic,EX-T,44400,21998
+1502,2017,Honda,Civic,Sport Hatchback,67611,20998
+1503,2020,Honda,Civic,Sport Hatchback,30828,26998
+1504,2020,Honda,Civic,EX-L,32262,25998
+1505,2017,Honda,Civic,LX,44329,21998
+1506,2018,Honda,Civic,LX Hatchback,64706,20998
+1507,2018,Honda,Civic,LX,75467,20998
+1508,2019,Honda,Civic,Sport,34500,24998
+1509,2020,Honda,Civic,LX,46206,21998
+1510,2017,Honda,Civic,LX,58802,20998
+1511,2021,Honda,Civic,LX,31827,22999
+1512,2020,Honda,Civic,LX,46935,21998
+1513,2019,Honda,Civic,LX,46573,21998
+1514,2020,Honda,Civic,LX,47218,21998
+1515,2019,Honda,Civic,Type R Hatchback,18457,42589
+1516,2022,Honda,Civic,Si,28370,32990
+1517,2018,Honda,Civic,EX,71549,20998
+1518,2020,Honda,Civic,Sport,35187,24998
+1519,2020,Honda,Civic,LX,41475,22998
+1520,2019,Honda,Civic,LX,50641,21990
+1521,2020,Honda,Civic,LX,34792,23998
+1522,2020,Honda,Civic,LX,48995,21998
+1523,2019,Honda,Civic,LX,42259,22998
+1524,2018,Honda,Civic,LX-P Coupe,52209,21998
+1525,2018,Honda,Civic,Sport Hatchback,36075,24990
+1526,2016,Honda,Civic,EX,45902,22590
+1527,2018,Honda,Civic,EX,71578,20998
+1528,2018,Honda,Civic,EX Hatchback,63810,22990
+1529,2018,Honda,Civic,Touring Coupe,38986,23998
+1530,2018,Honda,Civic,,60404,23590
+1531,2017,Honda,Civic,EX-T,53749,21990
+1532,2015,Honda,Civic,LX Coupe,96297,15999
+1533,2016,Honda,Civic,LX,90665,17589
+1534,2017,Honda,Civic,EX-T,54527,21998
+1535,2021,Honda,Civic,Sport,36122,24998
+1536,2021,Honda,Civic,Sport,27931,24999
+1537,2019,Honda,Civic,EX Coupe,41153,23590
+1538,2016,Honda,Civic,EX-T,43932,22998
+1539,2022,Honda,Civic,LX,35732,24998
+1540,2018,Honda,Civic,EX-T,55959,21998
+1541,2022,Honda,Civic,Touring,25353,28999
+1542,2020,Honda,Civic,Sport,36319,24998
+1543,2017,Honda,Civic,Touring Coupe,44888,22998
+1544,2018,Honda,Civic,EX,50809,21998
+1545,2017,Honda,Civic,EX-L Hatchback,62474,21998
+1546,2014,Honda,Civic,Si,60146,21998
+1547,2018,Honda,Civic,,36398,24998
+1548,2018,Honda,Civic,,36398,24998
+1549,2017,Honda,Civic,EX Hatchback,44836,22998
+1550,2018,Honda,Civic,EX-L,65003,21998
+1551,2020,Honda,Civic,EX,30979,24999
+1552,2016,Honda,Civic,Touring,65138,21998
+1553,2018,Honda,Civic,EX,73830,21998
+1554,2018,Honda,Civic,LX,52402,20998
+1555,2017,Honda,Civic,EX-T,56920,21998
+1556,2017,Honda,Civic,LX Hatchback,52471,21998
+1557,2019,Honda,Civic,Sport,84585,21990
+1558,2017,Honda,Civic,EX Hatchback,75343,21998
+1559,2019,Honda,Civic,LX,57525,21998
+1560,2018,Honda,Civic,EX,66399,21998
+1561,2019,Honda,Civic,LX,58022,21998
+1562,2015,Honda,Civic,Si,72403,21998
+1563,2020,Honda,Civic,EX,34747,25998
+1564,2019,Honda,Civic,Sport,63475,21998
+1565,2022,Honda,Civic,Sport,32177,26998
+1566,2017,Honda,Civic,Sport Hatchback,37567,23998
+1567,2017,Honda,Civic,Sport Hatchback,64839,21998
+1568,2020,Honda,Civic,LX,55213,21998
+1569,2019,Honda,Civic,LX,42178,21999
+1570,2020,Honda,Civic,LX,56515,21998
+1571,2020,Honda,Civic,LX,38081,24998
+1572,2019,Honda,Civic,LX,53637,21998
+1573,2019,Honda,Civic,Sport Hatchback,38423,24919
+1574,2019,Honda,Civic,Sport,48420,22990
+1575,2016,Honda,Civic,Touring,120589,18589
+1576,2017,Honda,Civic,EX,48595,22998
+1577,2021,Honda,Civic,Sport,35075,25896
+1578,2019,Honda,Civic,EX,33969,24589
+1579,2020,Honda,Civic,Sport Coupe,42864,23990
+1580,2018,Honda,Civic,Touring,62065,22590
+1581,2018,Honda,Civic,EX,50288,22998
+1582,2019,Honda,Civic,Sport,42216,23998
+1583,2014,Honda,Civic,,94421,17999
+1584,2021,Honda,Civic,EX Hatchback,39557,24500
+1585,2017,Honda,Civic,,45180,21589
+1586,2020,Honda,Civic,Sport,32664,23589
+1587,2019,Honda,Civic,Sport Coupe,53000,22990
+1588,2020,Honda,Civic,LX,50326,22998
+1589,2020,Honda,Civic,EX Coupe,42812,23998
+1590,2018,Honda,Civic,EX-T,53099,22998
+1591,2017,Honda,Civic,EX-T,51576,22998
+1592,2016,Honda,Civic,Touring,54626,22990
+1593,2018,Honda,Civic,EX,51869,22998
+1594,2020,Honda,Civic,LX,43581,23998
+1595,2019,Honda,Civic,Sport,41519,23998
+1596,2020,Honda,Civic,LX Coupe,47961,23590
+1597,2019,Honda,Civic,EX Hatchback,40446,24998
+1598,2018,Honda,Civic,EX-T Coupe,45062,23998
+1599,2019,Honda,Civic,EX Coupe,48993,23590
+1600,2017,Honda,Civic,Touring,66571,22990
+1601,2021,Honda,Civic,Sport,79893,22990
+1602,2017,Honda,Civic,LX,16125,21998
+1603,2020,Honda,Civic,Sport,40054,24998
+1604,2017,Honda,Civic,Touring,72363,22998
+1605,2018,Honda,Civic,EX-T,67171,22998
+1606,2017,Honda,Civic,EX,58055,22998
+1607,2020,Honda,Civic,EX,74848,22998
+1608,2018,Honda,Civic,Si,99191,22998
+1609,2020,Honda,Civic,Sport,42569,23998
+1610,2020,Honda,Civic,Sport,61254,22998
+1611,2018,Honda,Civic,Sport Hatchback,54628,22998
+1612,2015,Honda,Civic,EX-L,85967,19589
+1613,2016,Honda,Civic,Touring,96450,19589
+1614,2020,Honda,Civic,LX Coupe,63806,22998
+1615,2018,Honda,Civic,Sport Hatchback,45503,23998
+1616,2020,Honda,Civic,EX,46475,23998
+1617,2020,Honda,Civic,LX,36766,22999
+1618,2021,Honda,Civic,LX,63223,21999
+1619,2019,Honda,Civic,Sport,41496,24998
+1620,2019,Honda,Civic,EX Coupe,47420,23998
+1621,2020,Honda,Civic,Sport,47983,23998
+1622,2020,Honda,Civic,LX,12829,23998
+1623,2018,Honda,Civic,Type R Touring Hatchback,68637,35997
+1624,2021,Honda,Civic,Sport,41962,24998
+1625,2020,Honda,Civic,Sport,48460,23998
+1626,2020,Honda,Civic,Si Coupe,33199,28998
+1627,2020,Honda,Civic,Sport Hatchback,42216,24998
+1628,2022,Honda,Civic,Sport,40645,25579
+1629,2020,Honda,Civic,Sport Coupe,41480,24998
+1630,2021,Honda,Civic,Sport,42387,24998
+1631,2019,Honda,Civic,EX,8124,25998
+1632,2019,Honda,Civic,EX Hatchback,32710,25589
+1633,2019,Honda,Civic,Sport,49819,23998
+1634,2020,Honda,Civic,Sport,52104,23990
+1635,2018,Honda,Civic,EX-T,51704,23998
+1636,2019,Honda,Civic,EX,52161,23998
+1637,2022,Honda,Civic,LX,43189,24998
+1638,2019,Honda,Civic,Sport,48614,23998
+1639,2019,Honda,Civic,EX,53670,23998
+1640,2018,Honda,Civic,Touring,54214,23998
+1641,2019,Honda,Civic,Sport,6740,25998
+1642,2015,Honda,Civic,Si,42504,24998
+1643,2021,Honda,Civic,Sport,3960,26590
+1644,2013,Honda,Civic,LX,132453,15350
+1645,2018,Honda,Civic,EX-L Coupe,48426,24590
+1646,2019,Honda,Civic,EX Hatchback,61555,23990
+1647,2019,Honda,Civic,EX Hatchback,64690,23990
+1648,2018,Honda,Civic,Si,74138,23998
+1649,2017,Honda,Civic,Si,72444,23998
+1650,2016,Honda,Civic,LX,61486,19999
+1651,2020,Honda,Civic,EX-L,41150,25990
+1652,2020,Honda,Civic,Sport Hatchback,40589,25998
+1653,2020,Honda,Civic,LX,52968,24495
+1654,2018,Honda,Civic,Touring,61525,23998
+1655,2019,Honda,Civic,EX Hatchback,5530,26998
+1656,2020,Honda,Civic,EX-L Hatchback,30211,26999
+1657,2020,Honda,Civic,Sport,64808,23998
+1658,2019,Honda,Civic,Sport,55386,23998
+1659,2019,Honda,Civic,Sport,68185,23998
+1660,2019,Honda,Civic,Sport Hatchback,51536,24590
+1661,2021,Honda,Civic,Sport,46286,24998
+1662,2020,Honda,Civic,EX,83612,24495
+1663,2017,Honda,Civic,EX,58932,20999
+1664,2017,Honda,Civic,Sport Touring Hatchback,48544,24998
+1665,2015,Honda,Civic,Si,63724,23998
+1666,2022,Honda,Civic,Sport,38785,26998
+1667,2020,Honda,Civic,Sport Hatchback,12415,26990
+1668,2019,Honda,Civic,Sport,49770,24998
+1669,2022,Honda,Civic,Sport Touring Hatchback,34652,29267
+1670,2020,Honda,Civic,LX,12950,24998
+1671,2016,Honda,Civic,EX,47790,21999
+1672,2020,Honda,Civic,EX-L,46204,24998
+1673,2020,Honda,Civic,Sport Hatchback,12415,26990
+1674,2019,Honda,Civic,Sport,49770,24998
+1675,2022,Honda,Civic,Sport Touring Hatchback,34652,29267
+1676,2020,Honda,Civic,LX,12950,24998
+1677,2016,Honda,Civic,EX,47790,21999
+1678,2020,Honda,Civic,EX-L,46204,24998
+1679,2021,Honda,Civic,Sport Hatchback,48605,24998
+1680,2020,Honda,Civic,Sport Coupe,48646,24998
+1681,2020,Honda,Civic,LX,15535,23998
+1682,2021,Honda,Civic,Sport,45165,25999
+1683,2015,Honda,Civic,Si,57017,24998
+1684,2020,Honda,Civic,EX Hatchback,34522,25589
+1685,2017,Honda,Civic,Si Coupe,61224,24998
+1686,2019,Honda,Civic,Sport,37090,23999
+1687,2020,Honda,Civic,Sport Hatchback,41449,26998
+1688,2021,Honda,Civic,Sport Hatchback,46583,25998
+1689,2021,Honda,Civic,Sport,47599,25991
+1690,2013,Honda,Civic,LX,111038,14995
+1691,2017,Honda,Civic,LX,47883,31299
+1692,2020,Honda,Civic,LX,18188,22990
+1693,2020,Honda,Civic,LX,18188,22990
+1694,2019,Honda,Civic,Si Coupe,39782,27990
+1695,2019,Honda,Civic,Sport,71521,23995
+1696,2017,Honda,Civic,LX,53979,21589
+1697,2018,Honda,Civic,Si Coupe,68219,24998
+1698,2022,Honda,Civic,Sport,33443,26589
+1699,2020,Honda,Civic,LX,54405,24995
+1700,2022,Honda,Civic,Sport,4954,28998
+1701,2018,Honda,Civic,Si Coupe,48961,25998
+1702,2022,Honda,Civic,Sport Hatchback,41535,27998
+1703,2022,Honda,Civic,Si,36493,30998
+1704,2018,Honda,Civic,EX-L Hatchback,52560,24998
+1705,2020,Honda,Civic,EX-L,43262,24589
+1706,2021,Honda,Civic,EX Hatchback,5024,29998
+1707,2022,Honda,Civic,Sport,8709,28998
+1708,2020,Honda,Civic,Si Coupe,45650,27590
+1709,2022,Honda,Civic,Sport Touring Hatchback,31216,30589
+1710,2012,Honda,Civic,LX Coupe,169587,9549
+1711,2021,Honda,Civic,Sport,41343,26999
+1712,2020,Honda,Civic,Si,51305,26998
+1713,2012,Honda,Civic,EX-L Coupe,119947,12995
+1714,2005,Honda,Civic,,104519,8995
+1715,2020,Honda,Civic,LX,21132,22998
+1716,2020,Honda,Civic,Si,55010,27995
+1717,2020,Honda,Civic,Sport,18080,24998
+1718,2022,Honda,Civic,Sport,13316,27998
+1719,2009,Honda,Civic,,214784,4950
+1720,2020,Honda,Civic,EX,57120,23999
+1721,2019,Honda,Civic,Type R Hatchback,29191,41999
+1722,2021,Honda,Civic,Sport,20776,26487
+1723,2019,Honda,Civic,Sport Touring Hatchback,52838,25975
+1724,2018,Honda,Civic,Si Coupe,56321,26900
+1725,2016,Honda,Civic,EX,137716,16999
+1726,2020,Honda,Civic,EX-L Hatchback,39995,26589
+1727,2022,Honda,Civic,Sport,16100,26777
+1728,2017,Honda,Civic,Sport Touring Hatchback,43168,25589
+1729,2022,Honda,Civic,Touring,33328,29999
+1730,2009,Honda,Civic,LX,123841,10995
+1731,2013,Honda,Civic,,106000,14688
+1732,2022,Honda,Civic,Sport,13507,28998
+1733,2020,Honda,Civic,LX,23141,22590
+1734,2020,Honda,Civic,LX,23141,22590
+1735,2022,Honda,Civic,Sport,15587,27590
+1736,2022,Honda,Civic,Sport Touring Hatchback,10853,31998
+1737,2012,Honda,Civic,LX,31219,17590
+1738,2019,Honda,Civic,LX,21397,23998
+1739,2021,Honda,Civic,EX Hatchback,15555,27998
+1740,2018,Honda,Civic,LX,86075,17395
+1741,2017,Honda,Civic,EX Hatchback,122551,17876
+1742,2018,Honda,Civic,LX,26241,20998
+1743,2020,Honda,Civic,EX Hatchback,18819,25998
+1744,2021,Honda,Civic,Sport,20401,25590
+1745,2018,Honda,Civic,LX,125329,15409
+1746,2017,Honda,Civic,LX,27345,20990
+1747,2019,Honda,Civic,Touring,18889,26514
+1748,2018,Honda,Civic,EX-L,20947,24998
+1749,2020,Honda,Civic,Sport,20815,24998
+1750,2020,Honda,Civic,LX,22564,23998
+1751,2018,Honda,Civic,Sport Hatchback,77107,20959
+1752,2009,Honda,Civic,EX-L Coupe,91043,14995
+1753,2022,Honda,Civic,Touring,15734,29987
+1754,2008,Honda,Civic,Hybrid,194440,5949
+1755,2018,Honda,Civic,Type R Touring Hatchback,46825,37998
+1756,2020,Honda,Civic,Sport,21966,24998
+1757,2019,Honda,Civic,LX,25100,22998
+1758,2012,Honda,Civic,LX,85679,14590
+1759,2008,Honda,Civic,EX-L Coupe,121188,10995
+1760,2020,Honda,Civic,LX,26542,21998
+1761,2015,Honda,Civic,LX Coupe,75377,16995
+1762,2019,Honda,Civic,Type R Hatchback,51082,38590
+1763,2014,Honda,Civic,EX,32873,18990
+1764,2021,Honda,Civic,Sport Touring Hatchback,16385,30938
+1765,2019,Honda,Civic,Type R Hatchback,12860,41998
+1766,2016,Honda,Civic,EX-T,26727,21998
+1767,2021,Honda,Civic,Sport Hatchback,20166,26998
+1768,2020,Honda,Civic,Sport,23729,23998
+1769,2020,Honda,Civic,Sport,20198,26998
+1770,2022,Honda,Civic,Touring,27414,28740
+1771,2019,Honda,Civic,Sport Coupe,24527,23998
+1772,2015,Honda,Civic,LX,37344,19590
+1773,2022,Honda,Civic,Si,15331,33998
+1774,2022,Honda,Civic,Touring,17725,30186
+1775,2020,Honda,Civic,Sport,23315,24998
+1776,2020,Honda,Civic,LX,24889,23998
+1777,2018,Honda,Civic,LX,32430,20998
+1778,2019,Honda,Civic,Type R Hatchback,66623,34800
+1779,2016,Honda,Civic,LX,30752,20998
+1780,2020,Honda,Civic,LX,27359,22998
+1781,2020,Honda,Civic,LX,27002,22998
+1782,2020,Honda,Civic,Sport Hatchback,21503,26998
+1783,2019,Honda,Civic,Sport,24393,24998
+1784,2018,Honda,Civic,LX,31386,20998
+1785,2015,Honda,Civic,LX,91136,16590
+1786,2018,Honda,Civic,LX,42931,19900
+1787,2019,Honda,Civic,LX,28415,22998
+1788,2017,Honda,Civic,EX,28522,22998
+1789,2012,Honda,Civic,LX Coupe,205956,6988
+1790,2018,Honda,Civic,EX-T Coupe,26929,23998
+1791,2021,Honda,Civic,LX,28633,22998
+1792,2014,Honda,Civic,LX,103262,14990
+1793,2014,Honda,Civic,LX Coupe,124340,13850
+1794,2016,Honda,Civic,LX-P Coupe,38151,20590
+1795,2019,Honda,Civic,LX,20073,24215
+1796,2018,Honda,Civic,LX,51251,19499
+1797,2018,Honda,Civic,EX-T,75896,20930
+1798,2019,Honda,Civic,EX-L,25238,25998
+1799,2009,Honda,Civic,,215705,4200
+1800,2020,Honda,Civic,EX-L Hatchback,24063,26998
+1801,2004,Honda,Civic,LX,88041,8998
+1802,2016,Honda,Civic,EX-T,32549,21998
+1803,2012,Honda,Civic,LX,45248,17590
+1804,2021,Honda,Civic,LX,28680,23999
+1805,2013,Honda,Civic,,38518,18999
+1806,2019,Honda,Civic,LX Coupe,110292,13999
+1807,2022,Honda,Civic,Sport Touring Hatchback,21975,30998
+1808,2020,Honda,Civic,Sport,27206,24998
+1809,2012,Honda,Civic,,104219,11999
+1810,2013,Honda,Civic,EX-L,116333,14998
+1811,2012,Honda,Civic,LX,101113,14590
+1812,2015,Honda,Civic,LX,109183,15248
+1813,2014,Honda,Civic,EX,107046,15590
+1814,2017,Honda,Civic,Si,111146,20895
+1815,2014,Honda,Civic,EX,102779,15990
+1816,2013,Honda,Civic,EX-L,116333,14998
+1817,2012,Honda,Civic,LX,101113,14590
+1818,2015,Honda,Civic,LX,109183,15248
+1819,2014,Honda,Civic,EX,107046,15590
+1820,2017,Honda,Civic,Si,111146,20895
+1821,2014,Honda,Civic,EX,102779,15990
+1822,2013,Honda,Civic,,97821,15998
+1823,2013,Honda,Civic,EX,100177,15998
+1824,2015,Honda,Civic,LX,115785,14998
+1825,2012,Honda,Civic,EX,88214,14998
+1826,2014,Honda,Civic,LX,112795,14998
+1827,2014,Honda,Civic,LX,101827,14998
+1828,2013,Honda,Civic,LX Coupe,124810,14998
+1829,2013,Honda,Civic,LX,124425,13998
+1830,2014,Honda,Civic,LX,126710,14998
+1831,2007,Honda,Civic,LX Coupe,148200,7995
+1832,2013,Honda,Civic,LX,74656,15998
+1833,2013,Honda,Civic,LX,74202,15998
+1834,2012,Honda,Civic,EX,74485,15998
+1835,2016,Honda,Civic,LX,115413,15998
+1836,2014,Honda,Civic,LX Coupe,82868,15998
+1837,2014,Honda,Civic,LX Coupe,87964,15998
+1838,2013,Honda,Civic,Hybrid,98793,15998
+1839,2014,Honda,Civic,LX,114885,15998
+1840,2016,Honda,Civic,LX,36370,20998
+1841,2016,Honda,Civic,EX-T Coupe,93113,18990
+1842,2013,Honda,Civic,LX,118342,13599
+1843,2012,Honda,Civic,LX,83468,14998
+1844,2012,Honda,Civic,LX,96229,14998
+1845,2012,Honda,Civic,LX Coupe,107967,13998
+1846,2015,Honda,Civic,Si,123790,18998
+1847,2012,Honda,Civic,LX Coupe,59760,15998
+1848,2016,Honda,Civic,LX,134681,14995
+1849,2015,Honda,Civic,EX,70070,16998
+1850,2012,Honda,Civic,LX,62099,15998
+1851,2015,Honda,Civic,EX-L,97001,16990
+1852,2014,Honda,Civic,EX,92255,16998
+1853,2013,Honda,Civic,LX,76445,15998
+1854,2014,Honda,Civic,EX,72828,16998
+1855,2015,Honda,Civic,EX,91679,16998
+1856,2014,Honda,Civic,EX,97510,16998
+1857,2015,Honda,Civic,LX,81198,16998
+1858,2015,Honda,Civic,LX,86099,16998
+1859,2020,Honda,Civic,Sport,28206,24998
+1860,2009,Honda,Civic,,113965,9350
+1861,2012,Honda,Civic,EX Coupe,93488,14998
+1862,2019,Honda,Civic,LX,49778,18591
+1863,2015,Honda,Civic,EX Coupe,57704,17990
+1864,2013,Honda,Civic,,47514,18998
+1865,2020,Honda,Civic,LX,33230,22990
+1866,2015,Honda,Civic,EX,39821,19998
+1867,2016,Honda,Civic,LX,36013,20998
+1868,2021,Honda,Civic,Sport Hatchback,24890,27998
+1869,2013,Honda,Civic,LX,172100,10500
+1870,2018,Honda,Civic,LX,54348,19998
+1871,2014,Honda,Civic,EX,72740,17998
+1872,2015,Honda,Civic,EX-L,81976,17998
+1873,2017,Honda,Civic,EX-T,105345,17998
+1874,2016,Honda,Civic,EX,110439,17998
+1875,2016,Honda,Civic,EX,108328,17998
+1876,2016,Honda,Civic,EX,118192,17998
+1877,2016,Honda,Civic,LX,41399,19998
+1878,2016,Honda,Civic,LX,88691,17998
+1879,2013,Honda,Civic,Si,110873,17998
+1880,2014,Honda,Civic,EX,89250,15999
+1881,2015,Honda,Civic,LX,55958,17998
+1882,2016,Honda,Civic,LX,98621,17998
+1883,2017,Honda,Civic,LX,108054,17998
+1884,2019,Honda,Civic,LX,31220,23998
+1885,2013,Honda,Civic,,50143,18998
+1886,2016,Honda,Civic,LX,39544,20990
+1887,2016,Honda,Civic,Touring,84565,19990
+1888,2017,Honda,Civic,LX,50426,20590
+1889,2015,Honda,Civic,Si Coupe,111935,16994
+1890,2020,Honda,Civic,Sport,36748,22034
+1891,2020,Honda,Civic,Sport Coupe,29698,24998
+1892,2017,Honda,Civic,LX,85314,17998
+1893,2018,Honda,Civic,LX,98724,17998
+1894,2016,Honda,Civic,LX,99966,17998
+1895,2015,Honda,Civic,EX Coupe,64970,18590
+1896,2016,Honda,Civic,LX,68395,18590
+1897,2017,Honda,Civic,LX,85314,17998
+1898,2018,Honda,Civic,LX,98724,17998
+1899,2016,Honda,Civic,LX,99966,17998
+1900,2015,Honda,Civic,EX Coupe,64970,18590
+1901,2016,Honda,Civic,EX-T,97960,17995
+1902,2016,Honda,Civic,LX,68395,18590
+1903,2018,Honda,Civic,Touring,30087,24998
+1904,2012,Honda,Civic,LX,120989,13998
+1905,2017,Honda,Civic,LX-P Coupe,39830,20998
+1906,2017,Honda,Civic,Sport Hatchback,36922,21998
+1907,2013,Honda,Civic,EX,57822,17998
+1908,2013,Honda,Civic,LX,54540,18998
+1909,2018,Honda,Civic,EX-T,32366,23998
+1910,2019,Honda,Civic,Sport Hatchback,30305,24998
+1911,2020,Honda,Civic,LX,37147,21998
+1912,2016,Honda,Civic,EX-T,89615,18998
+1913,2019,Honda,Civic,Si Coupe,24947,28998
+1914,2018,Honda,Civic,Si,86970,23144
+1915,2016,Honda,Civic,EX-T,96444,18998
+1916,2016,Honda,Civic,EX-T,92988,18998
+1917,2016,Honda,Civic,EX,93998,18998
+1918,2016,Honda,Civic,EX,110141,18998
+1919,2017,Honda,Civic,EX,125317,18998
+1920,2017,Honda,Civic,LX Coupe,79842,18998
+1921,2017,Honda,Civic,LX,48251,19990
+1922,2016,Honda,Civic,EX,60631,19998
+1923,2015,Honda,Civic,,68601,18998
+1924,2016,Honda,Civic,,118768,15137
+1925,2017,Honda,Civic,LX,85946,18998
+1926,2018,Honda,Civic,LX,90283,18998
+1927,2016,Honda,Civic,EX-T,97916,18998
+1928,2016,Honda,Civic,LX,47325,19998
+1929,2016,Honda,Civic,EX,38176,21998
+1930,2019,Honda,Civic,LX,38295,21998
+1931,2016,Honda,Civic,LX,71156,18998
+1932,2017,Honda,Civic,LX,74455,18998
+1933,2017,Honda,Civic,LX,68512,18998
+1934,2016,Honda,Civic,LX,73093,18998
+1935,2016,Honda,Civic,LX,76403,18998
+1936,2020,Honda,Civic,Si Coupe,25825,28998
+1937,2014,Honda,Civic,Si,126315,17998
+1938,2016,Honda,Civic,EX,38176,21998
+1939,2019,Honda,Civic,LX,38295,21998
+1940,2016,Honda,Civic,LX,71156,18998
+1941,2017,Honda,Civic,LX,74455,18998
+1942,2017,Honda,Civic,LX,68512,18998
+1943,2016,Honda,Civic,LX,73093,18998
+1944,2016,Honda,Civic,LX,76403,18998
+1945,2020,Honda,Civic,Si Coupe,25825,28998
+1946,2016,Honda,Civic,EX,35674,22998
+1947,2018,Honda,Civic,EX,43820,20990
+1948,2016,Honda,Civic,LX,194236,11995
+1949,2012,Honda,Civic,,91380,15589
+1950,2021,Honda,Civic,LX,32901,23998
+1951,2018,Honda,Civic,LX,38930,21998
+1952,2016,Honda,Civic,EX-L,66304,20998
+1953,2018,Honda,Civic,LX,51222,19998
+1954,2018,Honda,Civic,LX,36104,22998
+1955,2018,Honda,Civic,LX,42995,20998
+1956,2019,Honda,Civic,Type R Hatchback,34941,39991
+1957,2016,Honda,Civic,LX,96019,17998
+1958,2016,Honda,Civic,LX,61266,19998
+1959,2018,Honda,Civic,LX,62675,19998
+1960,2017,Honda,Civic,LX,66036,19990
+1961,2017,Honda,Civic,EX,79539,19998
+1962,2017,Honda,Civic,EX,80966,19998
+1963,2017,Honda,Civic,EX Hatchback,102763,19998
+1964,2019,Honda,Civic,EX Hatchback,113824,19998
+1965,2017,Honda,Civic,EX-L Hatchback,95166,19998
+1966,2017,Honda,Civic,EX-T,105373,19998
+1967,2020,Honda,Civic,LX,36877,22998
+1968,2021,Honda,Civic,Sport,30292,25998
+1969,2018,Honda,Civic,EX-L,92976,19998
+1970,2017,Honda,Civic,EX-L,90959,19998
+1971,2017,Honda,Civic,EX-T,95344,19998
+1972,2016,Honda,Civic,EX-L,99429,19998
+1973,2017,Honda,Civic,LX-P Coupe,81695,26299
+1974,2020,Honda,Civic,Sport,30375,25998
+1975,2020,Honda,Civic,LX,37300,22998
+1976,2019,Honda,Civic,LX,37155,22998
+1977,2016,Honda,Civic,LX,63333,19998
+1978,2020,Honda,Civic,LX,37300,22998
+1979,2019,Honda,Civic,LX,37155,22998
+1980,2016,Honda,Civic,LX,63333,19998
+1981,2019,Honda,Civic,Si,27868,27998
+1982,2017,Honda,Civic,EX,37570,22998
+1983,2016,Honda,Civic,LX,65676,19998
+1984,2018,Honda,Civic,LX Coupe,67304,19998
+1985,2018,Honda,Civic,LX,69959,19998
+1986,2014,Honda,Civic,EX-L Coupe,69944,19998
+1987,2017,Honda,Civic,EX-T,51057,21998
+1988,2017,Honda,Civic,EX,70430,19998
+1989,2018,Honda,Civic,LX,74656,19998
+1990,2016,Honda,Civic,LX,76587,19998
+1991,2018,Honda,Civic,LX Hatchback,91850,19998
+1992,2017,Honda,Civic,LX,81010,19998
+1993,2018,Honda,Civic,LX,47162,20998
+1994,2018,Honda,Civic,LX-P Coupe,34312,22998
+1995,2015,Honda,Civic,EX,44471,21900
+1996,2017,Honda,Civic,LX Coupe,66172,19998
+1997,2017,Honda,Civic,LX,68816,19998
+1998,2017,Honda,Civic,EX-T,86730,19998
+1999,2019,Honda,Civic,LX Hatchback,92021,20819
+2000,2016,Honda,Civic,EX,53836,20998
+2001,2016,Honda,Civic,EX-L Coupe,55389,20998
+2002,2019,Honda,Civic,Sport,39383,22998
+2003,2019,Honda,Civic,LX,56013,20998
+2004,2018,Honda,Civic,EX,49766,21998
+2005,2017,Honda,Civic,EX-L,36745,23998
+2006,2018,Honda,Civic,EX,61912,20998
+2007,2019,Honda,Civic,Sport,36641,23998
+2008,2019,Honda,Civic,LX,55758,20998
+2009,2018,Honda,Civic,LX Hatchback,52970,20998
+2010,2018,Honda,Civic,EX-L,72143,20998
+2011,2016,Honda,Civic,EX-L Coupe,68977,20990
+2012,2018,Honda,Civic,EX Hatchback,80327,20998
+2013,2019,Honda,Civic,EX Hatchback,113824,20998
+2014,2017,Honda,Civic,EX,68705,20998
+2015,2016,Honda,Civic,EX,69198,20998
+2016,2017,Honda,Civic,EX-T,78248,20998
+2017,2018,Honda,Civic,EX,87155,20998
+2018,2021,Honda,Civic,LX,36758,23998
+2019,2020,Honda,Civic,Sport,33235,24998
+2020,2020,Honda,Civic,LX,44539,21998
+2021,2018,Honda,Civic,EX,44536,21998
+2022,2018,Honda,Civic,Sport Hatchback,76628,20998
+2023,2018,Honda,Civic,EX,78887,20998
+2024,2018,Honda,Civic,EX Hatchback,83034,20998
+2025,2018,Honda,Civic,EX-L Hatchback,95513,20998
+2026,2017,Honda,Civic,EX-T,86143,20998
+2027,2015,Honda,Civic,Si,108538,20998
+2028,2018,Honda,Civic,EX-L Hatchback,34930,24998
+2029,2019,Honda,Civic,LX,76940,27699
+2030,2019,Honda,Civic,LX,47345,21998
+2031,2016,Honda,Civic,LX,45103,21998
+2032,2018,Honda,Civic,Sport Hatchback,86068,20998
+2033,2022,Honda,Civic,EX,30005,27998
+2034,2019,Honda,Civic,Sport,37871,23998
+2035,2020,Honda,Civic,EX,50711,21994
+2036,2018,Honda,Civic,EX,38133,23998
+2037,2016,Honda,Civic,EX-L,49624,21998
+2038,2012,Honda,Civic,Si Coupe,59781,20998
+2039,2017,Honda,Civic,EX-T Coupe,72075,20998
+2040,2020,Honda,Civic,EX Hatchback,42953,24457
+2041,2018,Honda,Civic,EX Hatchback,43363,22998
+2042,2018,Honda,Civic,EX,51597,21998
+2043,2017,Honda,Civic,EX,85800,20998
+2044,2017,Honda,Civic,LX,49459,21998
+2045,2020,Honda,Civic,LX,53358,21998
+2046,2017,Honda,Civic,EX-T,59745,21990
+2047,2020,Honda,Civic,LX,54642,21998
+2048,2016,Honda,Civic,EX-T,58308,21998
+2049,2017,Honda,Civic,Touring,83707,21998
+2050,2020,Honda,Civic,Sport,39929,23998
+2051,2018,Honda,Civic,LX-P Coupe,45557,22998
+2052,2018,Honda,Civic,EX-T,45582,22998
+2053,2017,Honda,Civic,EX Hatchback,68832,21998
+2054,2018,Honda,Civic,EX Hatchback,71109,21998
+2055,2018,Honda,Civic,Si,97657,21998
+2056,2017,Honda,Civic,LX,48399,30399
+2057,2020,Honda,Civic,LX,55891,21998
+2058,2018,Honda,Civic,Sport Hatchback,40875,23998
+2059,2019,Honda,Civic,LX,57614,21998
+2060,2018,Honda,Civic,EX-T Coupe,46542,22998
+2061,2017,Honda,Civic,EX Hatchback,68832,21998
+2062,2018,Honda,Civic,EX Hatchback,71109,21998
+2063,2018,Honda,Civic,Si,97657,21998
+2064,2017,Honda,Civic,LX,48399,30399
+2065,2020,Honda,Civic,LX,55891,21998
+2066,2018,Honda,Civic,Sport Hatchback,40875,23998
+2067,2019,Honda,Civic,LX,57614,21998
+2068,2018,Honda,Civic,EX-T Coupe,46542,22998
+2069,2017,Honda,Civic,EX Hatchback,64466,21998
+2070,2018,Honda,Civic,Si,35156,25998
+2071,2020,Honda,Civic,LX,39398,23995
+2072,2020,Honda,Civic,Sport,42485,23998
+2073,2000,Honda,Civic,EX Coupe,166759,2995
+2074,2020,Honda,Civic,LX Hatchback,53133,22998
+2075,2019,Honda,Civic,Sport,43521,23998
+2076,2018,Honda,Civic,Sport Hatchback,54670,22999
+2077,2018,Honda,Civic,Sport Hatchback,52580,22998
+2078,2020,Honda,Civic,Sport,39397,24998
+2079,2018,Honda,Civic,EX,63041,22495
+2080,2022,Honda,Civic,LX,56714,30999
+2081,2018,Honda,Civic,EX,58869,22998
+2082,2019,Honda,Civic,EX,59251,22998
+2083,2018,Honda,Civic,EX-L Hatchback,45004,23998
+2084,2018,Honda,Civic,Si,76727,22998
+2085,2017,Honda,Civic,EX Hatchback,57981,22998
+2086,2020,Honda,Civic,EX,49318,22998
+2087,2019,Honda,Civic,Sport,71792,22998
+2088,2018,Honda,Civic,Si,73295,22998
+2089,2019,Honda,Civic,Sport,80790,22998
+2090,2019,Honda,Civic,EX,36036,23589
+2091,2018,Honda,Civic,Sport Hatchback,45076,23998
+2092,2019,Honda,Civic,Sport,60524,22998
+2093,2020,Honda,Civic,Sport,62270,22998
+2094,2020,Honda,Civic,LX,60817,23243
+2095,2021,Honda,Civic,Type R Hatchback,27350,42998
+2096,2015,Honda,Civic,EX,142667,13139
+2097,2017,Honda,Civic,Sport Hatchback,57969,22998
+2098,2017,Honda,Civic,EX Hatchback,45153,23998
+2099,2007,Honda,Civic,Hybrid,122125,8995
+2100,2018,Honda,Civic,Touring Coupe,48569,23998
+2101,2020,Honda,Civic,Sport,52744,23998
+2102,2018,Honda,Civic,EX Hatchback,54899,23998
+2103,2020,Honda,Civic,Sport,53359,23998
+2104,1996,Honda,Civic,EX Coupe,139500,4500
+2105,2020,Honda,Civic,Sport,55707,23998
+2106,2018,Honda,Civic,EX,55974,23998
+2107,2008,Honda,Civic,LX,181360,7999
+2108,2018,Honda,Civic,Sport Touring Hatchback,85256,23998
+2109,2018,Honda,Civic,Si,88529,23998
+2110,2017,Honda,Civic,Si,68344,23998
+2111,2017,Honda,Civic,LX,89633,26299
+2112,2012,Honda,Civic,LX Coupe,64897,19995
+2113,2019,Honda,Civic,Si Coupe,44453,24999
+2114,2020,Honda,Civic,Sport,47375,24990
+2115,2018,Honda,Civic,Sport Hatchback,57757,23998
+2116,2018,Honda,Civic,EX Hatchback,59168,22998
+2117,2019,Honda,Civic,Sport,55592,23998
+2118,2022,Honda,Civic,Si,32545,31990
+2119,2016,Honda,Civic,EX-L,83121,24900
+2120,2019,Honda,Civic,LX,53018,30395
+2121,2017,Honda,Civic,Si,64972,23998
+2122,2017,Honda,Civic,Si,64972,23998
+2123,2020,Honda,Civic,EX Hatchback,44096,25998
+2124,2019,Honda,Civic,EX,52442,24998
+2125,2018,Honda,Civic,Si Coupe,45098,25998
+2126,2021,Honda,Civic,Sport Hatchback,40500,26998
+2127,2020,Honda,Civic,Sport Coupe,56334,25154
+2128,2020,Honda,Civic,EX,66808,24992
+2129,2019,Honda,Civic,Si,73550,24998
+2130,2020,Honda,Civic,Sport,57400,24998
+2131,2018,Honda,Civic,Sport Touring Hatchback,49977,24998
+2132,2020,Honda,Civic,Sport,45713,25998
+2133,2019,Honda,Civic,Touring,44167,25998
+2134,2019,Honda,Civic,EX-L Hatchback,49040,25998
+2135,2018,Honda,Civic,EX-T,48866,25998
+2136,2019,Honda,Civic,Sport Hatchback,55925,24998
+2137,2019,Honda,Civic,EX-L Hatchback,43968,26998
+2138,2019,Honda,Civic,Sport,40691,23589
+2139,2019,Honda,Civic,LX,45836,22589
+2140,2013,Honda,Civic,Si Coupe,109125,15995
+2141,2019,Honda,Civic,EX-L Hatchback,43968,26998
+2142,2019,Honda,Civic,Sport,40691,23589
+2143,2019,Honda,Civic,LX,45836,22589
+2144,2013,Honda,Civic,Si Coupe,109125,15995
+2145,2021,Honda,Civic,Sport,57140,25495
+2146,2021,Honda,Civic,EX Hatchback,42476,28350
+2147,2013,Honda,Civic,LX,87749,14995
+2148,2013,Honda,Civic,EX,148949,12995
+2149,2019,Honda,Civic,EX,60000,21900
+2150,2016,Honda,Civic,EX-T,61829,20309
+2151,2006,Honda,Civic,,133039,4495
+2152,2017,Honda,Civic,Type R Hatchback,35658,39998
+2153,2007,Honda,Civic,,128547,6250
+2154,2004,Honda,Civic,LX,141813,5995
+2155,2016,Honda,Civic,LX,82871,19900
+2156,2019,Honda,Civic,EX,68000,21125
+2157,2019,Honda,Civic,Si Coupe,85990,24999
+2158,2018,Honda,Civic,Sport Hatchback,73529,21459
+2159,2007,Honda,Civic,,130799,4450
+2160,2010,Honda,Civic,LX Coupe,125893,15995
+2161,2018,Honda,Civic,LX,114999,14995
+2162,2018,Honda,Civic,Type R Touring Hatchback,83126,33998
+2163,2019,Honda,Civic,Type R Hatchback,51506,36998
+2164,2021,Honda,Civic,Sport Hatchback,28648,29218
+2165,2009,Honda,Civic,LX Coupe,174082,6524
+2166,2019,Honda,Civic,Type R Hatchback,34094,41999
+2167,2003,Honda,Civic,EX Coupe,131300,5995
+2168,2005,Honda,Civic,DX,155450,4995
+2169,2021,Honda,Civic,Sport,42968,25933
+2170,2020,Honda,Civic,LX Hatchback,56023,22187
+2171,2018,Honda,Civic,Si Coupe,88504,22536
+2172,2018,Honda,Civic,Si Coupe,88504,22536
+2173,2019,Honda,Civic,Sport,55429,24838
