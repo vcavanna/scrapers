@@ -147,4 +147,4 @@ def getCarOnPage(rawCarSoup, car_id, writer):
 
 # # TODO: Copy to S3
 
-scrapeForCarMakeAndModel("honda", "civic")
+scrapeForCarMakeAndModel(config["make"], config["model"])
