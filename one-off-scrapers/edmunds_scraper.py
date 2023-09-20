@@ -139,12 +139,22 @@ def getCarOnPage(rawCarSoup, car_id, writer):
 
     # TODO: Get # of drivers
 
+    # TODO: Get # of crashes
+
+    # TODO: Get type of use
+
     # TODO: Get Location (city)
 
     # TODO: Get Location (state)
 
-    writer.writerow(car_data[car_id_key])
+    # TODO: Get run date
 
-# # TODO: Copy to S3
+    # TODO: Get VIN
+
+    # TODO: Get dealership name
+
+    # TODO: Get # of repairs / services
+
+    writer.writerow(car_data[car_id_key])
 
 scrapeForCarMakeAndModel(config["make"], config["model"])
