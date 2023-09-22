@@ -5,8 +5,10 @@ import re
 import requests
 import bs4
 import csv
+import datetime
 
-config = {"make": "toyota", "model": "highlander"}
+config = {"make": "honda", "model": "fit"}
+fieldnames = ["car_entry_id","year","make","model","trim","miles","offer", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
 
 payload = {}
 headers = {
@@ -23,6 +25,8 @@ url = base_url + "/inventory/srp.html?inventorytype=used%2Ccpo&make={0}&model={0
 )
 
 totalCars = 0
+
+run_date = datetime.date.today().strftime('%Y-%m-%d')
 
 def extractYearMakeModelTrimTuple(src):
     """Takes the text src and returns a 4-tuple."""
@@ -50,8 +54,25 @@ def get_neighbor_relative_to_title_tag(tag):
 
 def cleanMiles(strM):
     """Cleans miles by converting to int"""
-    return int(strM.replace(",", "").replace(" miles", ""))
+    return int(strM.replace(",", "").replace(" miles", "").replace(" mile",""))
 
+def parseNumStringPair(strA):
+    """Parses strings that comply with the regex '(No|no|[0-9]) \w+'"""
+    assert(re.search('(No|no|[0-9]) \w+', strA)), "String {} does not fit regex: (No|no|[0-9]) \w+".format(strA)
+    val = strA.split(" ")[0]
+    if val == "No" or val == "no":
+        return 0
+    else:
+        return int(val)
+
+def parseHistoryString(strH):
+    """Returns the tuple of number of accidents, number of owners, and use type"""
+    listOfAttr = strH.split(", ")
+    assert(len(listOfAttr) == 3), "historyString does not have all three attributes: {}".format(strH)
+    numAccidents = parseNumStringPair(listOfAttr[0])
+    numOwners = parseNumStringPair(listOfAttr[1])
+    useType = listOfAttr[2]
+    return (numOwners, numAccidents, useType)
 
 def cleanOffer(offerTag):
     """Takes a tag object and returns"""
@@ -72,7 +93,6 @@ def scrapeForCarMakeAndModel(make, model):
     )
 
     csv_file = open('car_entries.csv', mode="w")
-    fieldnames = ["car_entry_id","year","make","model","trim","miles","offer"]
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
 
@@ -137,17 +157,50 @@ def getCarOnPage(rawCarSoup, car_id, writer):
         car_data[car_id_key].update({"offer": None})
         raise RuntimeError("Failed to extract offer from {}".format(offerTag)) from AssertionError
 
-    # TODO: Get # of drivers
+    # Get # of drivers, # of crashes, type of use
+    try:
+        historyIcon = rawCarSoup.find(title="Vehicle History")
+        assert(historyIcon), "Expected a history attribute and found none for id {}".format(car_id_key)
+        history = get_neighbor_relative_to_title_tag(historyIcon)
+        numDrivers, numAccidents, usageType = parseHistoryString(history)
+        car_data[car_id_key].update(
+            {"driver_count": numDrivers, "accidents": numAccidents, "usage_type": usageType}
+        )
+    except ValueError:
+        car_data[car_id_key].update(
+            {"driver_count": None, "accidents": None, "usage_type": None}
+        )
+        raise RuntimeError("ValueError: Failed to extract car history from {}".format(history)) from ValueError
+    except AssertionError:
+        car_data[car_id_key].update(
+            {"driver_count": None, "accidents": None, "usage_type": None}
+        )
+        raise RuntimeError("AssertionError: Failed to extract car history") from AssertionError
 
-    # TODO: Get # of crashes
+    viewMore = rawCarSoup.find(class_="view-more")
 
-    # TODO: Get type of use
+    # TODO: Get Location (city), Location (state), distance from your location
+    try:
+        locatedStr = viewMore.find(class_="small font-weight-bold").text
+        pattern = "(Located in )[\w\s]+, " # TODO: FINISH LATER!
+        assert(locatedStr.startswith("Located in ")), "The string '{0}' does not conform to the regex '{1}'".format(locatedStr, pattern)
+        cityState, distFromCarStr = locatedStr.removeprefix("Located in ").split("/")
+        try:
+            city, state = [txt.strip() for txt in cityState.split(",")]
+        except ValueError: 
+            raise RuntimeError("Failed to extract car history due to city-state parse of the following: {}".format(cityState))
+        distFromCar = int(distFromCarStr[0:distFromCarStr.find("miles")].replace(",", ""))
+        car_data[car_id_key].update(
+            {"city": city, "state": state, "dist_from_car": distFromCar}
+        )
+    except AssertionError:
+        car_data[car_id_key].update(
+            {"city": None, "state": None, "dist_from_car": None}
+        )
+        raise RuntimeError("Failed to extract car history from {}".format(history)) from ValueError
 
-    # TODO: Get Location (city)
-
-    # TODO: Get Location (state)
-
-    # TODO: Get run date
+    # Get run date
+    car_data[car_id_key].update({"run_date": run_date})
 
     # TODO: Get VIN
 
