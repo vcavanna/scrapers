@@ -7,8 +7,8 @@ import bs4
 import csv
 import datetime
 
-config = {"make": "honda", "model": "fit"}
-fieldnames = ["car_entry_id","year","make","model","trim","miles","offer", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
+config = {"make": "toyota", "model": "4runner"}
+fieldnames = ["car_entry_id","VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
 
 payload = {}
 headers = {
@@ -87,11 +87,7 @@ def getNextPage(soup):
     assert nextPageSuffix, 'End of pages (nextPageSuffix = null)'
     return base_url + nextPageSuffix
 
-def scrapeForCarMakeAndModel(make, model):
-    url = base_url + "/inventory/srp.html?inventorytype=used%2Ccpo&make={0}&model={0}%7C{1}".format(
-        make, model
-    )
-
+def scrapeForCarMakeAndModel():
     csv_file = open('car_entries.csv', mode="w")
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
@@ -124,6 +120,24 @@ def getCarsOnPage(url, writer):
     
     getCarsOnPage(nextPage, writer)
 
+def parseMPG(text):
+    """Parses the text containing the MPG to return the MPG as an int"""
+    """22 Combined MPG (20 City/26 Highway)"""
+    mpgValues = re.findall("\d+",text)
+    assert(len(mpgValues) == 3), "Expected only three integers in the given text string: found {0}\ntext: {1}".format(len(mpgValues),text)
+    assert(mpgValues[1] < mpgValues[0] < mpgValues [2]), "Values are not in the combined - city - highway format: {}".format(mpgValues)
+    mpgData = dict()
+    mpgData = {"mpg_avg": mpgValues[0], "mpg_city": mpgValues[1], "mpg_highway": mpgValues[2]}
+    return mpgData
+
+def parseVIN(text):
+    """Parses the text containing the VIN to return the VIN as an int"""
+    LEN_VIN = 17
+    START = text.find("VIN: ")
+    PREFIX_LEN = 5 + START
+    assert(re.match("VIN: [\w\d]{17}", text)), "Text does not match regex: 'VIN: [\w\d]{17}'\nText:{}".format(text)
+    return text[PREFIX_LEN: PREFIX_LEN + LEN_VIN]
+
 def getCarOnPage(rawCarSoup, car_id, writer):
     # get Year, Make, Model and Trim
     car_data = dict()
@@ -133,8 +147,7 @@ def getCarOnPage(rawCarSoup, car_id, writer):
     # print(yearMakeModelAndTrim)
     car_id_key = create_car_id_key(yearMakeModelAndTrim, car_id)
     year, make, model, trim = extractYearMakeModelTrimTuple(yearMakeModelAndTrim)
-    car_data.update({car_id_key: dict()})
-    car_data[car_id_key].update(
+    car_data.update(
         {"year": year, "make": make, "model": model, "trim": trim, "car_entry_id": car_id}
     )
 
@@ -142,9 +155,9 @@ def getCarOnPage(rawCarSoup, car_id, writer):
     try:
         miles = get_neighbor_relative_to_title_tag(rawCarSoup.find(title="Car Mileage"))
         cleaned_miles = cleanMiles(miles)
-        car_data[car_id_key].update({"miles": cleaned_miles})
+        car_data.update({"miles": cleaned_miles})
     except ValueError:
-        car_data[car_id_key].update({"miles": None})
+        car_data.update({"miles": None})
         raise RuntimeError("Failed to extract miles from {}".format(miles)) from ValueError
 
     # get Offer
@@ -152,9 +165,9 @@ def getCarOnPage(rawCarSoup, car_id, writer):
     try:
         offerTag = vehicleInfoClass.find(class_="usurp-inventory-card-vdp-link")
         offerDollarAmount = cleanOffer(offerTag)
-        car_data[car_id_key].update({"offer": offerDollarAmount})
+        car_data.update({"offer": offerDollarAmount})
     except AssertionError:
-        car_data[car_id_key].update({"offer": None})
+        car_data.update({"offer": None})
         raise RuntimeError("Failed to extract offer from {}".format(offerTag)) from AssertionError
 
     # Get # of drivers, # of crashes, type of use
@@ -163,16 +176,16 @@ def getCarOnPage(rawCarSoup, car_id, writer):
         assert(historyIcon), "Expected a history attribute and found none for id {}".format(car_id_key)
         history = get_neighbor_relative_to_title_tag(historyIcon)
         numDrivers, numAccidents, usageType = parseHistoryString(history)
-        car_data[car_id_key].update(
+        car_data.update(
             {"driver_count": numDrivers, "accidents": numAccidents, "usage_type": usageType}
         )
     except ValueError:
-        car_data[car_id_key].update(
+        car_data.update(
             {"driver_count": None, "accidents": None, "usage_type": None}
         )
         raise RuntimeError("ValueError: Failed to extract car history from {}".format(history)) from ValueError
     except AssertionError:
-        car_data[car_id_key].update(
+        car_data.update(
             {"driver_count": None, "accidents": None, "usage_type": None}
         )
         raise RuntimeError("AssertionError: Failed to extract car history") from AssertionError
@@ -190,24 +203,37 @@ def getCarOnPage(rawCarSoup, car_id, writer):
         except ValueError: 
             raise RuntimeError("Failed to extract car history due to city-state parse of the following: {}".format(cityState))
         distFromCar = int(distFromCarStr[0:distFromCarStr.find("miles")].replace(",", ""))
-        car_data[car_id_key].update(
+        car_data.update(
             {"city": city, "state": state, "dist_from_car": distFromCar}
         )
     except AssertionError:
-        car_data[car_id_key].update(
+        car_data.update(
             {"city": None, "state": None, "dist_from_car": None}
         )
         raise RuntimeError("Failed to extract car history from {}".format(history)) from ValueError
 
     # Get run date
-    car_data[car_id_key].update({"run_date": run_date})
+    car_data.update({"run_date": run_date})
 
     # TODO: Get VIN
+    xsmallClasses = viewMore.find_all(class_="xsmall mb-1")
+
+    for tag in xsmallClasses:
+        if "MPG" in tag.text:
+            try:
+                mpgData = parseMPG(tag.text)
+                car_data.update(mpgData)
+            except AssertionError:
+                raise RuntimeError("Failed to extract mpg from {}".format(tag.text)) from AssertionError
+        if "VIN" in tag.text:
+            try:
+                vin = parseVIN(tag.text)
+                car_data.update({"VIN": vin})
+            except AssertionError:
+                raise RuntimeError("Failed to extract VIN from {}".format(tag.text)) from AssertionError
 
     # TODO: Get dealership name
 
-    # TODO: Get # of repairs / services
+    writer.writerow(car_data)
 
-    writer.writerow(car_data[car_id_key])
-
-scrapeForCarMakeAndModel(config["make"], config["model"])
+scrapeForCarMakeAndModel()
