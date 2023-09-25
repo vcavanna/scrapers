@@ -2,12 +2,12 @@
 
 import functools
 import re
-import requests
 import bs4
 import csv
 import datetime
+from requester import Requester
 
-config = {"make": "toyota", "model": "4runner"}
+config = {"make": "toyota", "model": "gr-supra"}
 fieldnames = ["car_entry_id","VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
 
 payload = {}
@@ -23,6 +23,10 @@ base_url = "https://www.edmunds.com"
 url = base_url + "/inventory/srp.html?inventorytype=used%2Ccpo&make={0}&model={0}%7C{1}".format(
     config["make"], config["model"]
 )
+
+requester_config = {"url": url,
+                    "headers":headers,
+                    "payload":payload}
 
 totalCars = 0
 
@@ -92,15 +96,14 @@ def scrapeForCarMakeAndModel():
     writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writeheader()
 
-    getCarsOnPage(url, writer)
+    responseGetter = Requester(requester_config)
 
-def getCarsOnPage(url, writer):
+    getCarsOnPage(writer, responseGetter)
+
+def getCarsOnPage(writer, responseGetter: Requester):
     global totalCars
-    try:
-        response = requests.request("GET", url, headers=headers, data=payload, timeout=1)
-    except requests.exceptions.ReadTimeout:
-        print("Read timed out with URL = '{}'\nretrying with timeout=5.".format(url))
-        response = requests.request("GET", url, headers=headers, data=payload, timeout=5)
+
+    response = responseGetter.makePersistentRequest()
 
     soup = bs4.BeautifulSoup(response.content, "html.parser")
     results = soup.find_all(class_="d-flex mb-0_75 mb-md-1_5 col-12 col-md-6")
@@ -118,7 +121,8 @@ def getCarsOnPage(url, writer):
         print("End of pages")
         return
     
-    getCarsOnPage(nextPage, writer)
+    responseGetter.url = nextPage
+    getCarsOnPage(writer, responseGetter)
 
 def parseMPG(text):
     """Parses the text containing the MPG to return the MPG as an int"""
