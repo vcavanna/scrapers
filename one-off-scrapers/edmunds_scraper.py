@@ -234,6 +234,8 @@ def getCarOnPage(rawCarSoup, car_id, writer):
 
     # TODO: Get dealership name
 
+    # TODO: Get external color
+
     writer.writerow(car_data)
 
 scrapeForCarMakeAndModel()
