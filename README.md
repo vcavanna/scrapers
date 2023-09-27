@@ -21,7 +21,8 @@ A web portal (soon to be developed) will include the ability to have users sign 
 <li>Additional data modeling via dbt select statements</li>
 <li>Uploading the dataset to kaggle</li>
 <li>Find a solution so running the data scrape doesn't have to happen locally</li>
-<li>Replace this project backlog with individual issues on Github issues</li>
+<li>Replace this project backlog with individual issues on <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">Github issues</a></li>
+<li>Revise the CONTRIBUTING.md doc according to the <a href="https://opensource.guide/starting-a-project/">Open Source Guide</a>
 
 <h2>Installation and Run Instructions</h2>
 
@@ -74,6 +75,10 @@ To understand how to contribute, please read the <a href="CONTRIBUTING.md">CONTR
 #### IAM Identity Center
 <li>Credit to the <a href="https://docs.aws.amazon.com/singlesignon/latest/userguide/getting-started.html">AWS IAM Identity Center user guide</a> for how to set up IAM Identity Center and its users.</li>
 <li>Credit to the <a href="https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html">AWS CLI configure with a Single Sign on Session</a> for how to programmatically make use of the above IAM Identity Center to make credentials.</li>
+
+#### Open Source / Git Guides
+<li>Credit to the <a href="https://opensource.guide/starting-a-project/">Open Source Guide</a> for how to start this project as open source.</li>
+<li>Credit to the <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">Github issues</a> docs for helping me to understand how issues can enable team collaboration and to-do lists.</li> 
 
 <h2>Open Source Datasets</h2>
 This includes either sources currently in use, or sources that I really want to use to enhance the quality of the end project.
