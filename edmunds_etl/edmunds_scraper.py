@@ -7,7 +7,7 @@ import csv
 import datetime
 from requester import Requester
 
-config = {"make": "toyota", "model": "gr-supra"}
+config = {"make": "ford", "model": "f-150"}
 fieldnames = ["car_entry_id","VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
 
 payload = {}
@@ -156,28 +156,75 @@ def getCarOnPage(rawCarSoup, car_id, writer):
     )
 
     # get Miles traveled
-    try:
-        miles = get_neighbor_relative_to_title_tag(rawCarSoup.find(title="Car Mileage"))
-        cleaned_miles = cleanMiles(miles)
-        car_data.update({"miles": cleaned_miles})
-    except ValueError:
-        car_data.update({"miles": None})
-        raise RuntimeError("Failed to extract miles from {}".format(miles)) from ValueError
+    updateWithMilesTraveled(rawCarSoup, car_data)
 
     # get Offer
-    vehicleInfoClass = rawCarSoup.find(class_="vehicle-info d-flex flex-column p-1")
-    try:
-        offerTag = vehicleInfoClass.find(class_="usurp-inventory-card-vdp-link")
-        offerDollarAmount = cleanOffer(offerTag)
-        car_data.update({"offer": offerDollarAmount})
-    except AssertionError:
-        car_data.update({"offer": None})
-        raise RuntimeError("Failed to extract offer from {}".format(offerTag)) from AssertionError
+    updateWithOffer(rawCarSoup, car_data)
 
     # Get # of drivers, # of crashes, type of use
+    history = updateWithHistory(rawCarSoup, car_data)
+
+    viewMore = rawCarSoup.find(class_="view-more")
+
+    # TODO: Get Location (city), Location (state), distance from your location
+    updateWithLocation(car_data, viewMore)
+
+    # Get run date
+    car_data.update({"run_date": run_date})
+
+    # TODO: Get VIN
+    xsmallClasses = viewMore.find_all(class_="xsmall mb-1")
+
+    for tag in xsmallClasses:
+        if "MPG" in tag.text:
+            updateWithMPG(car_data, tag)
+        if "VIN" in tag.text:
+            updateWithVIN(car_data, tag)
+
+    # TODO: Get dealership name
+
+    # TODO: Get external color
+
+    writer.writerow(car_data)
+
+def updateWithVIN(car_data, tag):
+    try:
+        vin = parseVIN(tag.text)
+        car_data.update({"VIN": vin})
+    except AssertionError:
+        raise RuntimeError("Failed to extract VIN from {}".format(tag.text)) from AssertionError
+
+def updateWithMPG(car_data, tag):
+    try:
+        mpgData = parseMPG(tag.text)
+        car_data.update(mpgData)
+    except AssertionError:
+        raise RuntimeError("Failed to extract mpg from {}".format(tag.text)) from AssertionError
+
+def updateWithLocation(car_data, viewMore):
+    try:
+        locatedStr = viewMore.find(class_="small font-weight-bold").text
+        pattern = "(Located in )[\w\s]+, " # TODO: FINISH LATER!
+        assert(locatedStr.startswith("Located in ")), "The string '{0}' does not conform to the regex '{1}'".format(locatedStr, pattern)
+        cityState, distFromCarStr = locatedStr.removeprefix("Located in ").split("/")
+        try:
+            city, state = [txt.strip() for txt in cityState.split(",")]
+        except ValueError: 
+            raise RuntimeError("Failed to extract car location due to city-state parse of the following: {}".format(cityState))
+        distFromCar = int(distFromCarStr[0:distFromCarStr.find("miles")].replace(",", ""))
+        car_data.update(
+            {"city": city, "state": state, "dist_from_car": distFromCar}
+        )
+    except AssertionError:
+        car_data.update(
+            {"city": None, "state": None, "dist_from_car": None}
+        )
+        raise RuntimeError("Failed to extract car location from {}".format(locatedStr)) from ValueError
+
+def updateWithHistory(rawCarSoup, car_data):
     try:
         historyIcon = rawCarSoup.find(title="Vehicle History")
-        assert(historyIcon), "Expected a history attribute and found none for id {}".format(car_id_key)
+        assert(historyIcon), "Expected a history attribute and found none"
         history = get_neighbor_relative_to_title_tag(historyIcon)
         numDrivers, numAccidents, usageType = parseHistoryString(history)
         car_data.update(
@@ -193,53 +240,25 @@ def getCarOnPage(rawCarSoup, car_id, writer):
             {"driver_count": None, "accidents": None, "usage_type": None}
         )
         raise RuntimeError("AssertionError: Failed to extract car history") from AssertionError
+    return history
 
-    viewMore = rawCarSoup.find(class_="view-more")
-
-    # TODO: Get Location (city), Location (state), distance from your location
+def updateWithOffer(rawCarSoup, car_data):
+    vehicleInfoClass = rawCarSoup.find(class_="vehicle-info d-flex flex-column p-1")
     try:
-        locatedStr = viewMore.find(class_="small font-weight-bold").text
-        pattern = "(Located in )[\w\s]+, " # TODO: FINISH LATER!
-        assert(locatedStr.startswith("Located in ")), "The string '{0}' does not conform to the regex '{1}'".format(locatedStr, pattern)
-        cityState, distFromCarStr = locatedStr.removeprefix("Located in ").split("/")
-        try:
-            city, state = [txt.strip() for txt in cityState.split(",")]
-        except ValueError: 
-            raise RuntimeError("Failed to extract car history due to city-state parse of the following: {}".format(cityState))
-        distFromCar = int(distFromCarStr[0:distFromCarStr.find("miles")].replace(",", ""))
-        car_data.update(
-            {"city": city, "state": state, "dist_from_car": distFromCar}
-        )
+        offerTag = vehicleInfoClass.find(class_="usurp-inventory-card-vdp-link")
+        offerDollarAmount = cleanOffer(offerTag)
+        car_data.update({"offer": offerDollarAmount})
     except AssertionError:
-        car_data.update(
-            {"city": None, "state": None, "dist_from_car": None}
-        )
-        raise RuntimeError("Failed to extract car history from {}".format(history)) from ValueError
+        car_data.update({"offer": None})
+        raise RuntimeError("Failed to extract offer from {}".format(offerTag)) from AssertionError
 
-    # Get run date
-    car_data.update({"run_date": run_date})
-
-    # TODO: Get VIN
-    xsmallClasses = viewMore.find_all(class_="xsmall mb-1")
-
-    for tag in xsmallClasses:
-        if "MPG" in tag.text:
-            try:
-                mpgData = parseMPG(tag.text)
-                car_data.update(mpgData)
-            except AssertionError:
-                raise RuntimeError("Failed to extract mpg from {}".format(tag.text)) from AssertionError
-        if "VIN" in tag.text:
-            try:
-                vin = parseVIN(tag.text)
-                car_data.update({"VIN": vin})
-            except AssertionError:
-                raise RuntimeError("Failed to extract VIN from {}".format(tag.text)) from AssertionError
-
-    # TODO: Get dealership name
-
-    # TODO: Get external color
-
-    writer.writerow(car_data)
+def updateWithMilesTraveled(rawCarSoup, car_data):
+    try:
+        miles = get_neighbor_relative_to_title_tag(rawCarSoup.find(title="Car Mileage"))
+        cleaned_miles = cleanMiles(miles)
+        car_data.update({"miles": cleaned_miles})
+    except ValueError:
+        car_data.update({"miles": None})
+        raise RuntimeError("Failed to extract miles from {}".format(miles)) from ValueError
 
 scrapeForCarMakeAndModel()
