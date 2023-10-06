@@ -7,8 +7,8 @@ import csv
 import datetime
 from requester import Requester
 
-config = {"make": "ford", "model": "f-150"}
-fieldnames = ["car_entry_id","VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
+config = {"make": "ford", "model": "mustang"}
+fieldnames = ["VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
 
 payload = {}
 headers = {
@@ -152,7 +152,7 @@ def getCarOnPage(rawCarSoup, car_id, writer):
     car_id_key = create_car_id_key(yearMakeModelAndTrim, car_id)
     year, make, model, trim = extractYearMakeModelTrimTuple(yearMakeModelAndTrim)
     car_data.update(
-        {"year": year, "make": make, "model": model, "trim": trim, "car_entry_id": car_id}
+        {"year": year, "make": make, "model": model, "trim": trim}
     )
 
     # get Miles traveled
