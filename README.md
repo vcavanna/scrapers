@@ -59,9 +59,12 @@ To understand how to contribute, please read the <a href="CONTRIBUTING.md">CONTR
 <li>Credit to realpython.com's tutorial <a href="https://realpython.com/beautiful-soup-web-scraper-python/">Beautiful Soup: Build a Web Scraper With Python</a> for the introduction to webscraping.</li>
 
 ### AWS
+<li> AWS Active Credit Application <a href="https://www.linkedin.com/pulse/how-receive-1000-aws-active-credit-your-side-project-startup-haque/">How to receive $1000 AWS Active Credit for your side project or startup</a> for getting free credits.</li> 
+
 #### Redshift
 <li>Credit to the AWS tutorial <a href="https://docs.aws.amazon.com/redshift/latest/dg/tutorial-loading-data.html">Loading Data from Amazon S3</a> for the introduction to using the redshift database.</li>
 <li>Credit to the AWS tutorial <a href="https://docs.aws.amazon.com/redshift/latest/mgmt/python-connect-examples.html">redshift python connect</a> for docs on the python-redshift interaction</li>
+
 
 #### Lambda
 <li>Credit to <a href="https://github.com/aws-samples/getting-started-with-amazon-redshift-data-api/blob/main/quick-start/python/RedShiftServerlessDataAPI.py">this quick-start</a> for showing how to quickly process s3 uploads into the Redshift database.</li>
@@ -79,6 +82,7 @@ To understand how to contribute, please read the <a href="CONTRIBUTING.md">CONTR
 #### Open Source / Git Guides
 <li>Credit to the <a href="https://opensource.guide/starting-a-project/">Open Source Guide</a> for how to start this project as open source.</li>
 <li>Credit to the <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">Github issues</a> docs for helping me to understand how issues can enable team collaboration and to-do lists.</li> 
+
 
 <h2>Open Source Datasets</h2>
 This includes either sources currently in use, or sources that I really want to use to enhance the quality of the end project.
