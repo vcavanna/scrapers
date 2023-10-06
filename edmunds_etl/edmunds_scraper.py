@@ -8,7 +8,7 @@ import datetime
 from requester import Requester
 
 config = {"make": "ford", "model": "mustang"}
-fieldnames = ["VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "run_date"]
+fieldnames = ["VIN","year","make","model","trim","miles","offer","mpg_avg","mpg_city","mpg_highway", "driver_count", "accidents", "usage_type", "city", "state", "dist_from_car", "dealership_name", "run_date"]
 
 payload = {}
 headers = {
@@ -53,12 +53,17 @@ def create_car_id_key(src, iterator):
 
 def get_neighbor_relative_to_title_tag(tag):
     """Used to get repeating edmunds tags with relevant information close by. Returns tag"""
-    return tag.next_sibling.string
+    return tag.next_sibling.text
 
 
 def cleanMiles(strM):
     """Cleans miles by converting to int"""
     return int(strM.replace(",", "").replace(" miles", "").replace(" mile",""))
+
+def cleanDealership(strD):
+    """Cleans miles by converting to int"""
+    assert(re.search('.+\(.+\)', strD)), "String {} does not fit regex: .+\(.+\)".format(strD)
+    return strD[0:strD.rfind("(") - 1]
 
 def parseNumStringPair(strA):
     """Parses strings that comply with the regex '(No|no|[0-9]) \w+'"""
@@ -182,6 +187,7 @@ def getCarOnPage(rawCarSoup, car_id, writer):
             updateWithVIN(car_data, tag)
 
     # TODO: Get dealership name
+    updateWithDealershipName(rawCarSoup, car_data)
 
     # TODO: Get external color
 
@@ -260,5 +266,14 @@ def updateWithMilesTraveled(rawCarSoup, car_data):
     except ValueError:
         car_data.update({"miles": None})
         raise RuntimeError("Failed to extract miles from {}".format(miles)) from ValueError
+    
+def updateWithDealershipName(rawCarSoup, car_data):
+    try:
+        dealership_name = get_neighbor_relative_to_title_tag(rawCarSoup.find(title="Dealer Location"))
+        cleaned_dealership = cleanDealership(dealership_name)
+        car_data.update({"dealership_name": cleaned_dealership})
+    except ValueError:
+        car_data.update({"dealership_name": None})
+        raise RuntimeError("Failed to extract dealership_name from {}".format(dealership_name)) from ValueError
 
 scrapeForCarMakeAndModel()
