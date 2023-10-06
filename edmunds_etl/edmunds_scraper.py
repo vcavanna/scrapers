@@ -204,7 +204,7 @@ def updateWithMPG(car_data, tag):
 def updateWithLocation(car_data, viewMore):
     try:
         locatedStr = viewMore.find(class_="small font-weight-bold").text
-        pattern = "(Located in )[\w\s]+, " # TODO: FINISH LATER!
+        pattern = "Located in \w+(\s*\w*)*, \w+ \/ \d+ (miles|mile) away from \w+(\s*\w*)*, \w+"
         assert(locatedStr.startswith("Located in ")), "The string '{0}' does not conform to the regex '{1}'".format(locatedStr, pattern)
         cityState, distFromCarStr = locatedStr.removeprefix("Located in ").split("/")
         try:
